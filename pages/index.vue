@@ -8,7 +8,7 @@
     <whats-new class="mb-4" :items="newsItems" />
     <static-info
       class="mb-4"
-      url="https://www.pref.chiba.lg.jp/kenfuku/kansenshou/corona-soudancenter.html#meyasu"
+      url="https://www.pref.chiba.lg.jp/kenfuku/kansenshou/corona-soudan.html"
       :text="'自分や家族の症状に不安や心配があればまずは電話相談をどうぞ'"
       :btn-text="'相談の手順を見る'"
     />
@@ -190,7 +190,7 @@ export default {
       sumInfoOfPatients,
       headerItem: {
         icon: 'mdi-chart-timeline-variant',
-        title: '県内の最新感染動向',
+        title: '松戸市の最新感染動向',
         date: Data.lastUpdate
       },
       newsItems: News.newsItems.slice(0, 5),
@@ -246,7 +246,7 @@ export default {
   },
   head() {
     return {
-      title: '県内の最新感染動向'
+      title: '松戸市の最新感染動向'
     }
   }
 }

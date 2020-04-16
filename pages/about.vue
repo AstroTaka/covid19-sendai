@@ -5,16 +5,23 @@
     </h2>
     <StaticCard>
       <p>
-        当サイトは、千葉県とCivicTechZenChibaの組織を超えた共業のもと、新型コロナウィルス感染症（COVID-19）における公式情報と客観的な数値をわかりやすく伝え、千葉県にお住まいの方、企業の方、観光に訪れる方が、現状を把握して適切な対策を取ることができるようにすることを目的としています。<br />
-        開発は、シビックテック団体<a
-          href="https://sites.google.com/view/civictechzenchiba/"
+        当サイトは、千葉県松戸市の新型コロナウィルス感染症（COVID-19）の状況を調べるために<a
+          href="https://covid19.civictech.chiba.jp/"
           target="_blank"
           rel="noopener"
-          >CivicTechZenChiba
+          >千葉県公式新型コロナウイルス対策サイト
           <v-icon aria-label="別タブで開く" role="img" :aria-hidden="false">
             mdi-open-in-new
           </v-icon> </a
-        >が行っています。
+        >を改変して個人的に作られた物です。<br /><a
+          href="https://covid19.civictech.chiba.jp/"
+          target="_blank"
+          rel="noopener"
+          >千葉県公式新型コロナウイルス対策サイト
+          <v-icon aria-label="別タブで開く" role="img" :aria-hidden="false">
+            mdi-open-in-new
+          </v-icon> </a
+        >と同じデータから陽性反応者については居住地が松戸市のデータのみを使用し、検査実施数については松戸保健所で取り扱われたデータのみを使用しています。
       </p>
     </StaticCard>
     <StaticCard>
@@ -24,6 +31,14 @@
           target="_blank"
           rel="noopener"
           >東京都公式新型コロナウイルス対策サイト
+          <v-icon aria-label="別タブで開く" role="img" :aria-hidden="false">
+            mdi-open-in-new
+          </v-icon> </a
+        >のみを利用している<a
+          href="https://covid19.civictech.chiba.jp/"
+          target="_blank"
+          rel="noopener"
+          >千葉県公式新型コロナウイルス対策サイト
           <v-icon aria-label="別タブで開く" role="img" :aria-hidden="false">
             mdi-open-in-new
           </v-icon> </a
@@ -157,7 +172,7 @@
             mdi-open-in-new
           </v-icon> </a
         >で公開されており、誰でも自由に利用することができます。詳しくは、<a
-          href="https://github.com/civictechzenchiba/covid19-chiba"
+          href="https://github.com/AstroTaka/covid19-matsudo"
           target="_blank"
           rel="noopener"
           >GitHub リポジトリ
