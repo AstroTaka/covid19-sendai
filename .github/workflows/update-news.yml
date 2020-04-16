@@ -2,7 +2,7 @@ name: update news
 
 on:
   schedule:
-    - cron: ' * * * *'
+    - cron: '55 * * * *'
 
 jobs:
   build:
