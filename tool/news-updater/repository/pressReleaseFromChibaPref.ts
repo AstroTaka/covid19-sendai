@@ -4,6 +4,7 @@ import { ISO8601JST, ISO8601UTC, NewsItem } from '../types'
 type RssNewsItemResponse = {
   creator: string
   date: ISO8601JST
+  pubDate: ISO8601UTC
   title: string
   link: string
   'dc:creator': string
@@ -14,13 +15,13 @@ type RssNewsItemResponse = {
 }
 
 const PressReleaseFromChibaPrefectureUrl =
-  'https://www.pref.chiba.lg.jp/homepage/shinchaku/shinchaku.xml'
+  'https://www.city.matsudo.chiba.jp/rss_news.xml'
 
 const parser = new RssParser()
 const convertRssItemToNewsItem = (
   responses: RssNewsItemResponse
 ): NewsItem => ({
-  date: responses.date,
+  date: responses.pubDate,
   link: responses.link,
   title: responses.title
 })
@@ -34,4 +35,8 @@ export const getNewsFromPressReleaseFromChibaPrefecture = async (): Promise<News
   return (rssResponse.items as RssNewsItemResponse[])
     .filter(checkItemRelatedToCovid19)
     .map(convertRssItemToNewsItem)
+    .map(function(value,index,array){
+    value.date =(new Date(value.date)).toISOString();
+      return value;
+  　});
 }
