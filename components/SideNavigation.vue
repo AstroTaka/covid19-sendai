@@ -11,7 +11,7 @@
       <h1 class="SideNavigation-Heading">
         <nuxt-link :to="localePath('/')" class="SideNavigation-HeadingLink">
           <div class="SideNavigation-HeaderLogo">
-            <img src="/logo.svg" :alt="$t('Prefecture')" />
+            <img src="/top_title.png" :alt="$t('Prefecture')" />
           </div>
           <div class="SideNavigation-HeaderLogoLinkText">
             {{ $t('COVID-19') }}<br />{{ $t('Measures site') }}
@@ -84,21 +84,6 @@
             </dd>
           </dl>
         </div>
-        <div class="sponsor">
-          Operations by:<br />
-          <a
-            href="https://sites.google.com/view/civictechzenchiba/"
-            target="_blank"
-            rel="noopener"
-            class="sponsor__image"
-          >
-            <span>CivicTechZenChiba</span>
-            <img
-              src="@/assets/images/civictechzenchiba-icon.jpg"
-              alt="CivicTechZenChiba Icon"
-            />
-          </a>
-        </div>
       </footer>
     </div>
   </div>
@@ -114,7 +99,7 @@
     "Measures site": "対策サイト",
     "Chiba Prefecture": "千葉県",
     "Chiba City": "千葉市",
-    "The latest updates": "県内の最新感染動向",
+    "The latest updates": "松戸市の最新感染動向",
     "Information": "お知らせ一覧",
     "for Families with children": "お子様をお持ちの皆様へ",
     "for Citizens": "県民の皆様へ",
@@ -122,8 +107,11 @@
     "Official statements from Task Force": "新型コロナウイルス感染症への対応について",
     "About information counter": "電話相談窓口について",
     "Cancelled public events": "臨時休館情報",
+    "City official website": "松戸市公式ホームページ",
     "Government official website": "千葉県公式ホームページ",
     "Message from Governor Morita": "知事からのメッセージ",
+    "COVID19 City official website": "松戸市コロナウイルス関連ページ",
+    "COVID19 Government official website": "千葉県コロナウィルス関連ページ",
     "About us": "当サイトについて"
   }
 }
@@ -153,52 +141,32 @@ export default {
         {
           icon: 'mdi-information',
           title: this.$t('Information'),
-          link: '/news'
-        },
-        {
-          icon: 'ParentIcon',
-          title: this.$t('for Families with children'),
-          link: '/parent'
-        },
-        {
-          icon: 'mdi-account-multiple',
-          title: this.$t('for Citizens'),
-          link: 'https://www.pref.chiba.lg.jp/shippei/kansenshou/2019-ncov.html'
-        },
-        {
-          icon: 'mdi-domain',
-          title: this.$t('for Enterprises and Employees'),
-          link: '/worker',
+          link: '/news',
           divider: true
         },
         {
-          title: this.$t('Official statements from Task Force'),
+          title: this.$t('COVID19 City official website'),
           link:
-            'https://www.pref.chiba.lg.jp/cate/kfk/kenkou-iryou/kenkouzukuri/kansenshou/coronavirus.html'
+            'https://www.city.matsudo.chiba.jp/kenko_fukushi/kansenshou/index.html'
         },
         {
-          title: this.$t('About information counter'),
+          title: this.$t('COVID19 Government official website'),
           link:
-            'https://www.pref.chiba.lg.jp/kenfuku/kansenshou/corona-soudan.html'
-        },
-        {
-          title: this.$t('Cancelled public events'),
-          link:
-            'https://www.pref.chiba.lg.jp/kouhou/homepage/2019/ncov-index.html',
+            'https://www.pref.chiba.lg.jp/cate/kfk/kenkou-iryou/kenkouzukuri/kansenshou/coronavirus.html',
           divider: true
         },
         {
-          title: this.$t('Message from Governor Morita'),
-          link:
-            'https://www.pref.chiba.lg.jp/kenfuku/kansenshou/ncov/mes-chiji.html'
-        },
-        {
-          title: this.$t('About us'),
-          link: '/about'
+          title: this.$t('City official website'),
+          link: 'https://www.city.matsudo.chiba.jp/index.html'
         },
         {
           title: this.$t('Government official website'),
           link: 'https://www.pref.chiba.lg.jp/',
+          divider: true
+        },
+        {
+          title: this.$t('About us'),
+          link: '/about',
           divider: true
         }
       ]
