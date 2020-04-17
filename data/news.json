@@ -1,6 +1,16 @@
 {
   "newsItems": [
     {
+      "date": "2020-04-17T05:00:00.000Z",
+      "link": "http://www.city.matsudo.chiba.jp/jigyosya/chushoncov.html",
+      "title": "新型コロナウイルス感染症の影響を受ける中小企業者への支援情報"
+    },
+    {
+      "date": "2020-04-17T03:00:00.000Z",
+      "link": "http://www.city.matsudo.chiba.jp/jigyosya/chushoncov.html",
+      "title": "新型コロナウイルス感染症の影響を受ける中小企業者への支援情報"
+    },
+    {
       "date": "2020-04-16T11:00:00.000Z",
       "link": "http://www.city.matsudo.chiba.jp/kenko_fukushi/kansenshou/ncovpatient.html",
       "title": "新たに3名の新型コロナウイルス感染者が確認されました（4月15日）"
@@ -42,6 +52,11 @@
     },
     {
       "date": "2020-04-08T05:00:00.000Z",
+      "link": "http://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/shogaku_chugaku/houkagojidou/index.html",
+      "title": "新型コロナウイルス感染症拡大防止のための放課後児童クラブの対応について"
+    },
+    {
+      "date": "2020-04-08T05:00:00.000Z",
       "link": "http://www.city.matsudo.chiba.jp/kenko_fukushi/kansenshou/eventcancelncov.html",
       "title": "新型コロナウイルス感染症拡大防止のため中止・延期になったイベント等"
     },
@@ -49,11 +64,6 @@
       "date": "2020-04-08T05:00:00.000Z",
       "link": "http://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/itijiazuketai/byouji_byougojihoiku/day-serves.html",
       "title": "新型コロナウイルスの感染拡大防止に伴う病児・病後児保育施設の対応について　"
-    },
-    {
-      "date": "2020-04-08T05:00:00.000Z",
-      "link": "http://www.city.matsudo.chiba.jp/kosodate/matsudodekosodate/kosodatenavi/shogaku_chugaku/houkagojidou/index.html",
-      "title": "新型コロナウイルス感染症拡大防止のための放課後児童クラブの対応について"
     },
     {
       "date": "2020-04-08T04:00:00.000Z",
