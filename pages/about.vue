@@ -13,7 +13,7 @@
           <v-icon aria-label="別タブで開く" role="img" :aria-hidden="false">
             mdi-open-in-new
           </v-icon> </a
-        >を改変して個人的に作られた物で松戸市とは関係無い非公式の物です。<br /><a
+        >を改変して個人的に作られた松戸市とは関係無い非公式の物です。<br /><a
           href="https://covid19.civictech.chiba.jp/"
           target="_blank"
           rel="noopener"
