@@ -112,6 +112,7 @@
     "Message from Governor Morita": "知事からのメッセージ",
     "COVID19 City official website": "松戸市コロナウイルス関連ページ",
     "COVID19 Government official website": "千葉県コロナウィルス関連ページ",
+    "Chiba COVID19 site":"千葉県公式新型コロナウイルス対策サイト",
     "About us": "当サイトについて"
   }
 }
@@ -162,6 +163,11 @@ export default {
         {
           title: this.$t('Government official website'),
           link: 'https://www.pref.chiba.lg.jp/',
+          divider: true
+        },
+        {
+          title: this.$t('Chiba COVID19 site'),
+          link: 'https://covid19.civictech.chiba.jp',
           divider: true
         },
         {
