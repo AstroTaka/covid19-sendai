@@ -19,7 +19,7 @@ const config: Configuration = {
         hid: 'description',
         name: 'description',
         content:
-          '当サイトは新型コロナウイルス感染症（COVID-19）に関する状況を調べるために個人で開設したものです。'
+          '当サイトは新型コロナウイルス感染症（COVID-19）に関する状況を調べるために個人で開設した松戸市とは関係無い非公式のサイトです。'
       },
       {
         hid: 'og:site_name',
@@ -41,7 +41,7 @@ const config: Configuration = {
         hid: 'og:description',
         property: 'og:description',
         content:
-          '当サイトは新型コロナウイルス感染症（COVID-19）に関する状況を調べるために個人で開設したものです。'
+          '当サイトは新型コロナウイルス感染症（COVID-19）に関する状況を調べるために個人で開設した松戸市とは関係無い非公式のサイトです。'
       },
       {
         hid: 'og:image',
