@@ -113,6 +113,7 @@
     "COVID19 City official website": "松戸市コロナウイルス関連ページ",
     "COVID19 Government official website": "千葉県コロナウィルス関連ページ",
     "Chiba COVID19 site":"千葉県公式新型コロナウイルス対策サイト",
+    "Tokyo COVID19 site":"東京都公式新型コロナウイルス対策サイト",
     "About us": "当サイトについて"
   }
 }
@@ -168,6 +169,10 @@ export default {
         {
           title: this.$t('Chiba COVID19 site'),
           link: 'https://covid19.civictech.chiba.jp',
+        },
+        {
+          title: this.$t('Tokyo COVID19 site'),
+          link: 'https://stopcovid19.metro.tokyo.lg.jp/',
           divider: true
         },
         {
