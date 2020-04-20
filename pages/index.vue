@@ -101,7 +101,6 @@
 </template>
 
 <script>
-Vue.config.devtools = true;
 import PageHeader from '@/components/PageHeader.vue'
 // import TimeBarChart from '@/components/TimeBarChart.vue'
 import TimeStackedBarChart from '@/components/TimeStackedBarChart.vue'
