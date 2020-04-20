@@ -3,7 +3,7 @@
     <page-header
       :icon="headerItem.icon"
       :title="headerItem.title"
-      :date="headerItem.date"
+      :date="test"
     />
     <whats-new class="mb-4" :items="newsItems" />
     <static-info
@@ -171,7 +171,7 @@ export default {
         'の累計',
       unit: '人'
     }
-
+    
     const data = {
       Data,
       patientsTable,
