@@ -3,7 +3,7 @@
     <page-header
       :icon="headerItem.icon"
       :title="headerItem.title"
-      :date="test"
+      :date="headerItem.date"
     />
     <whats-new class="mb-4" :items="newsItems" />
     <static-info
@@ -191,7 +191,8 @@ export default {
       headerItem: {
         icon: 'mdi-chart-timeline-variant',
         title: '松戸市の最新感染動向',
-        date: Data.lastUpdate
+        date: News.newsItems.slice(0).date
+//        date: Data.lastUpdate
       },
       newsItems: News.newsItems.slice(0, 5),
       metroGraphOption: {
