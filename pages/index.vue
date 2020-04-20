@@ -191,7 +191,7 @@ export default {
       headerItem: {
         icon: 'mdi-chart-timeline-variant',
         title: '松戸市の最新感染動向',
-        date: News.newsItems.slice(0,1).date
+        date: News.newsItems[0].date
 //        date: Data.lastUpdate
       },
       newsItems: News.newsItems.slice(0, 5),
