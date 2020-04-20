@@ -3593,10 +3593,10 @@
     ]
   },
   "better_patients_summary": {
-    "date": "2020/04/19 09:20",
+    "date": "2020-04-19T09:20:16+09:00",
     "data": []
   },
-  "lastUpdate": "2020/04/19 09:20",
+  "lastUpdate": "2020-04-19T09:20:16+09:00",
   "main_summary": {
     "attr": "検査実施人数",
     "value": 2323,
