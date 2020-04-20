@@ -38,7 +38,7 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import { convertDatetimeToISO8601Format } from '@/utils/formatDate'
+import { convertDateToDataViewDisplayText } from '@/utils/formatDate'
 export default Vue.extend({
   props: {
     title: {
@@ -56,7 +56,7 @@ export default Vue.extend({
   },
   computed: {
     formattedDate(): string {
-      return convertDatetimeToISO8601Format(this.date)
+      return convertDateToDataViewDisplayText(this.date)
     }
   }
 })
