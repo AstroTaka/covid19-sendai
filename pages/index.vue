@@ -173,8 +173,8 @@ export default {
       unit: '人'
     }
     
-    //const LastUpdate = convertLastDateDisplayText(Data.lastUpdate,News.newsItems[0].date)
-    const LastUpdate = News.newsItems[0].date
+    const LastUpdate = convertLastDateDisplayText(Data.lastUpdate,News.newsItems[0].date)
+    //const LastUpdate = News.newsItems[0].date
     
     const data = {
       Data,
