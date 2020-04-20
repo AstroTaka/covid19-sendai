@@ -68,6 +68,8 @@ jobs:
         if: steps.git-diff.outputs.hasdiff == 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          LINE_TOKEN: ${{ secrets.LINE_TOKEN}}
+          URL: https://notify-api.line.me/api/notify
         run: |
           sudo timedatectl set-timezone Asia/Tokyo
           sudo snap install hub --classic
@@ -77,4 +79,8 @@ jobs:
             --no-edit \
             -m "ニュース自動更新（$(date +'%Y/%m/%d %H:%M')）" \
             -m ":newspaper: ニュースの自動更新です" \
-            -l "auto_merge" \ 
+            -l "auto_merge"
+          curl -X POST \
+             -H "Authorization: Bearer ${LINE_TOKEN}" \
+             -F "message=news.jsonを更新しました。"  \
+             ${URL}
