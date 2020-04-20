@@ -18,7 +18,7 @@ export const convertDateToDataViewDisplayText =(dateString: string): string => {
 }
 
 export const convertLastDateDisplayText =(dateString1: string, dateString2: string): string => {
-  if(dayjs(dateString1) > dayjs(dateString2)){
+  if(dayjs(dateString1).isAfter(dayjs(dateString2))){
     return dayjs(dateString1).format('YYYY/MM/DD HH:mm')
   }
   return dayjs(dateString2).format('YYYY/MM/DD HH:mm')
