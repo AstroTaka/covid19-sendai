@@ -100,9 +100,7 @@
   </div>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
-import { convertDateToDataViewDisplayText } from '@/utils/formatDate'
+<script>
 import PageHeader from '@/components/PageHeader.vue'
 // import TimeBarChart from '@/components/TimeBarChart.vue'
 import TimeStackedBarChart from '@/components/TimeStackedBarChart.vue'
@@ -115,8 +113,9 @@ import formatTable from '@/utils/formatTable'
 import formatConfirmedCases from '@/utils/formatConfirmedCases'
 import News from '@/data/news.json'
 import ConfirmedCasesDetailsCard from '@/components/cards/ConfirmedCasesDetailsCard.vue'
+import convertLastDateIndexDisplayText from '@/utils/formatDate'
 
-export default Vue.extend({
+export default {
   components: {
     PageHeader,
     // TimeBarChart,
@@ -193,7 +192,7 @@ export default Vue.extend({
       headerItem: {
         icon: 'mdi-chart-timeline-variant',
         title: '松戸市の最新感染動向',
-        date: Data.lastUpdate
+        date: convertLastDateDisplayText(Data.lastUpdate,News.newsItems[0].date)
       },
       newsItems: News.newsItems.slice(0, 5),
       metroGraphOption: {
@@ -251,7 +250,7 @@ export default Vue.extend({
       title: '松戸市の最新感染動向'
     }
   }
-})
+}
 </script>
 
 <style lang="scss" scoped>
