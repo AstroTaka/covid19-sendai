@@ -1,10 +1,20 @@
 <template>
   <div class="MainPage">
-    <page-header
-      :icon="headerItem.icon"
-      :title="headerItem.title"
-      :date="headerItem.date"
-    />
+    <div class="Header mb-3">
+      <page-header :icon="headerItem.icon">
+        {{ headerItem.title }}
+      </page-header>
+      <div class="UpdatedAt">
+        <span>{{ $t('最終更新') }} </span>
+        <time :datetime="updatedAt">{{ Data.lastUpdate }}</time>
+      </div>
+      <div
+        v-show="!['ja', 'ja-basic'].includes($i18n.locale)"
+        class="Annotation"
+      >
+        <span>{{ $t('注釈') }} </span>
+      </div>
+    </div>
     <whats-new class="mb-4" :items="newsItems" />
     <static-info
       class="mb-4"
