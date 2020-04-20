@@ -12,3 +12,7 @@ export const convertDateToDisplayText = (dateString: string): string => {
   // TODO: i18nする
   return dayjs(dateString).format('YYYY/MM/DD')
 }
+
+export const convertDateToDataViewDisplayText =(dateString: string): string => {
+  return dayjs(dateString).format('YYYY/MM/DD HH:mm')
+}
