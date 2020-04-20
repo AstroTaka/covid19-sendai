@@ -18,7 +18,7 @@
         <slot name="supplement" />
       </div>
       <time :datetime="formattedDate" class="DataView-Footer__time"
-        >{{ date }} 更新</time
+        >{{ formattedDate }} 更新</time
       >
       <!-- <a
         v-if="url"
