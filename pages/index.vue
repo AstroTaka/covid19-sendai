@@ -1,20 +1,10 @@
 <template>
   <div class="MainPage">
-    <div class="Header mb-3">
-      <page-header :icon="headerItem.icon">
-        {{ headerItem.title }}
-      </page-header>
-      <div class="UpdatedAt">
-        <span>{{ $t('最終更新') }} </span>
-        <time :datetime="updatedAt">{{ Data.lastUpdate }}</time>
-      </div>
-      <div
-        v-show="!['ja', 'ja-basic'].includes($i18n.locale)"
-        class="Annotation"
-      >
-        <span>{{ $t('注釈') }} </span>
-      </div>
-    </div>
+    <page-header
+      :icon="headerItem.icon"
+      :title="headerItem.title"
+      :date="headerItem.date"
+    />
     <whats-new class="mb-4" :items="newsItems" />
     <static-info
       class="mb-4"
@@ -201,7 +191,8 @@ export default {
       headerItem: {
         icon: 'mdi-chart-timeline-variant',
         title: '松戸市の最新感染動向',
-        date: News.newsItems[0].date
+        date: "2020/04/21 02:01"
+//        date: News.newsItems[0].date
 //        date: Data.lastUpdate
       },
       newsItems: News.newsItems.slice(0, 5),
