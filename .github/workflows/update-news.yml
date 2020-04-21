@@ -29,8 +29,8 @@ jobs:
       - name: Switch branch
         id: branch
         run: |
-          export BRANCH_NAME=patch-news
-          if [ $(git ls-remote origin patch-news | wc -l) = "1" ]; then
+          export BRANCH_NAME=patch-news-sendai
+          if [ $(git ls-remote origin patch-news-sendai | wc -l) = "1" ]; then
             git fetch --all
             git switch $BRANCH_NAME
             echo "::set-output name=created::false";
@@ -68,14 +68,14 @@ jobs:
         if: steps.git-diff.outputs.hasdiff == 'true'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          LINE_TOKEN: ${{ secrets.LINE_TOKEN}}
+          LINE_TOKEN: ${{ secrets.LINE_SENDAI_TOKEN}}
           URL: https://notify-api.line.me/api/notify
         run: |
           sudo timedatectl set-timezone Asia/Tokyo
           sudo snap install hub --classic
           git remote set-url origin "https://$GITHUB_ACTOR:$GITHUB_TOKEN@github.com/$GITHUB_REPOSITORY"
           hub pull-request \
-            -b development \
+            -b development-sendai \
             --no-edit \
             -m "ニュース自動更新（$(date +'%Y/%m/%d %H:%M')）" \
             -m ":newspaper: ニュースの自動更新です" \
