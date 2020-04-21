@@ -11,7 +11,7 @@ const config: Configuration = {
     htmlAttrs: {
       prefix: 'og: http://ogp.me/ns#'
     },
-    titleTemplate: '%s | 松戸市 新型コロナウイルス感染症対策サイト',
+    titleTemplate: '%s | 仙台市 新型コロナウイルス感染症対策サイト',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -19,12 +19,12 @@ const config: Configuration = {
         hid: 'description',
         name: 'description',
         content:
-          '当サイトは新型コロナウイルス感染症（COVID-19）に関する状況を調べるために個人で開設した松戸市とは関係無い非公式のサイトです。'
+          '当サイトは新型コロナウイルス感染症（COVID-19）に関する状況を調べるために個人で開設した仙台市とは関係無い非公式のサイトです。'
       },
       {
         hid: 'og:site_name',
         property: 'og:site_name',
-        content: '松戸市 新型コロナウイルス感染症対策サイト'
+        content: '仙台市 新型コロナウイルス感染症対策サイト'
       },
       { hid: 'og:type', property: 'og:type', content: 'website' },
       {
@@ -35,13 +35,13 @@ const config: Configuration = {
       {
         hid: 'og:title',
         property: 'og:title',
-        content: '松戸市 新型コロナウイルス感染症対策サイト'
+        content: '仙台市 新型コロナウイルス感染症対策サイト'
       },
       {
         hid: 'og:description',
         property: 'og:description',
         content:
-          '当サイトは新型コロナウイルス感染症（COVID-19）に関する状況を調べるために個人で開設した松戸市とは関係無い非公式のサイトです。'
+          '当サイトは新型コロナウイルス感染症（COVID-19）に関する状況を調べるために個人で開設した仙台市とは関係無い非公式のサイトです。'
       },
       {
         hid: 'og:image',
@@ -176,7 +176,7 @@ const config: Configuration = {
     hardSource: process.env.NODE_ENV === 'development'
   },
   manifest: {
-    name: '松戸市 新型コロナウイルス感染症対策サイト',
+    name: '仙台市 新型コロナウイルス感染症対策サイト',
     theme_color: '#00a040',
     background_color: '#ffffff',
     display: 'standalone',
