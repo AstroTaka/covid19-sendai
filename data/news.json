@@ -1,6 +1,11 @@
 {
   "newsItems": [
     {
+      "date": "2020-04-21T09:00:00.000Z",
+      "link": "http://www.city.matsudo.chiba.jp/kenko_fukushi/kansenshou/ncovpatient.html",
+      "title": "新たに4名の新型コロナウイルス感染者が確認されました（4月21日）"
+    },
+    {
       "date": "2020-04-21T05:00:00.000Z",
       "link": "http://www.city.matsudo.chiba.jp/kenko_fukushi/kansenshou/setaimukekyufukin.html",
       "title": "世帯向け給付金（新型コロナウイルス感染症の影響を受ける方）"
