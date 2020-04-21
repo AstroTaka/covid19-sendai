@@ -10,7 +10,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          ref: development
+          ref: development-sendai
 
       - name: Setup Node
         uses: actions/setup-node@v1
