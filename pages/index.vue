@@ -191,7 +191,7 @@ export default {
       sumInfoOfPatients,
       headerItem: {
         icon: 'mdi-chart-timeline-variant',
-        title: '松戸市の最新感染動向',
+        title: '仙台市の最新感染動向',
         date: convertLastDateDisplayText(Data.lastUpdate,News.newsItems[0].date)
       },
       newsItems: News.newsItems.slice(0, 5),
@@ -247,7 +247,7 @@ export default {
   },
   head() {
     return {
-      title: '松戸市の最新感染動向'
+      title: '仙台市の最新感染動向'
     }
   }
 }
