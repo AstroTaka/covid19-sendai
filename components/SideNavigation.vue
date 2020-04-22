@@ -64,7 +64,7 @@
             <dt>Data by:</dt>
             <dd>
               <a
-                href="https://www.pref.chiba.lg.jp/"
+                href="https://www.pref.miyagi.jp/"
                 target="_blank"
                 rel="noopener"
                 class="sponsor__data"
@@ -74,7 +74,7 @@
             </dd>
             <dd>
               <a
-                href="https://www.city.chiba.jp/hokenfukushi/kenkou/kikaku/kansensyoujyouhou.html"
+                href="https://www.city.sendai.jp/"
                 target="_blank"
                 rel="noopener"
                 class="sponsor__data"
