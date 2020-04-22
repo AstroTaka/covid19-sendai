@@ -102,7 +102,7 @@
 
 <script>
 import PageHeader from '@/components/PageHeader.vue'
-// import TimeBarChart from '@/components/TimeBarChart.vue'
+import TimeBarChart from '@/components/TimeBarChart.vue'
 import TimeStackedBarChart from '@/components/TimeStackedBarChart.vue'
 import WhatsNew from '@/components/WhatsNew.vue'
 import StaticInfo from '@/components/StaticInfo.vue'
@@ -118,7 +118,7 @@ import convertLastDateDisplayText from '@/utils/formatDate'
 export default {
   components: {
     PageHeader,
-    // TimeBarChart,
+    TimeBarChart,
     TimeStackedBarChart,
     WhatsNew,
     StaticInfo,
