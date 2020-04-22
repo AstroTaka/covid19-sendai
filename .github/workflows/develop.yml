@@ -3,7 +3,7 @@ name: development deploy
 on:
   push:
     branches:
-      - development-sendai
+      - development
 
 jobs:
   deploy:
@@ -34,4 +34,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          publish_branch: dev-pages-sendai
+          publish_branch: dev-pages
