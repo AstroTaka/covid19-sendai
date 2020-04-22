@@ -5,7 +5,7 @@
     </h2>
     <StaticCard>
       <p>
-        当サイトは、千葉県松戸市の新型コロナウィルス感染症（COVID-19）の状況を調べるために<a
+        当サイトは、宮城県仙台市の新型コロナウィルス感染症（COVID-19）の状況を調べるために<a
           href="https://covid19.civictech.chiba.jp/"
           target="_blank"
           rel="noopener"
@@ -13,15 +13,7 @@
           <v-icon aria-label="別タブで開く" role="img" :aria-hidden="false">
             mdi-open-in-new
           </v-icon> </a
-        >を改変して個人的に作られた松戸市とは関係無い非公式のサイトです。<br /><a
-          href="https://covid19.civictech.chiba.jp/"
-          target="_blank"
-          rel="noopener"
-          >千葉県公式新型コロナウイルス対策サイト
-          <v-icon aria-label="別タブで開く" role="img" :aria-hidden="false">
-            mdi-open-in-new
-          </v-icon> </a
-        >と同じデータから陽性反応者については居住地が松戸市のデータのみを使用し、検査実施数については松戸保健所で取り扱われたデータのみを使用しています。
+        >を改変して個人的に作られた仙台市とは関係無い非公式のサイトです。
       </p>
     </StaticCard>
     <StaticCard>

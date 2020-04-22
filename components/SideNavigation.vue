@@ -69,7 +69,7 @@
                 rel="noopener"
                 class="sponsor__data"
               >
-                {{ $t('Chiba Prefecture') }}
+                {{ $t('Miyagi Prefecture') }}
               </a>
             </dd>
             <dd>
@@ -79,7 +79,7 @@
                 rel="noopener"
                 class="sponsor__data"
               >
-                {{ $t('Chiba City') }}
+                {{ $t('Sendai City') }}
               </a>
             </dd>
           </dl>
@@ -94,11 +94,11 @@
   "ja": {
     "Navi Open": "サイドメニュー項目を開く",
     "Navi Close": "サイドメニュー項目を閉じる",
-    "Prefecture": "千葉県",
+    "Prefecture": "宮城県",
     "COVID-19": "新型コロナウイルス感染症",
     "Measures site": "対策サイト",
-    "Chiba Prefecture": "千葉県",
-    "Chiba City": "千葉市",
+    "Miyagi Prefecture": "宮城県",
+    "Sendai City": "仙台市",
     "The latest updates": "松戸市の最新感染動向",
     "Information": "お知らせ一覧",
     "for Families with children": "お子様をお持ちの皆様へ",
@@ -107,11 +107,11 @@
     "Official statements from Task Force": "新型コロナウイルス感染症への対応について",
     "About information counter": "電話相談窓口について",
     "Cancelled public events": "臨時休館情報",
-    "City official website": "松戸市公式ホームページ",
-    "Government official website": "千葉県公式ホームページ",
+    "City official website": "仙台市公式ホームページ",
+    "Government official website": "宮城県公式ホームページ",
     "Message from Governor Morita": "知事からのメッセージ",
-    "COVID19 City official website": "松戸市コロナウイルス関連ページ",
-    "COVID19 Government official website": "千葉県コロナウィルス関連ページ",
+    "COVID19 City official website": "仙台市コロナウイルス関連ページ",
+    "COVID19 Government official website": "宮城県コロナウィルス関連ページ",
     "Chiba COVID19 site":"千葉県公式新型コロナウイルス対策サイト",
     "Tokyo COVID19 site":"東京都公式新型コロナウイルス対策サイト",
     "About us": "当サイトについて"
@@ -149,30 +149,21 @@ export default {
         {
           title: this.$t('COVID19 City official website'),
           link:
-            'https://www.city.matsudo.chiba.jp/kenko_fukushi/kansenshou/index.html'
+            'https://www.city.sendai.jp/kikikanri/kinkyu/corona2020/index.html'
         },
         {
           title: this.$t('COVID19 Government official website'),
           link:
-            'https://www.pref.chiba.lg.jp/cate/kfk/kenkou-iryou/kenkouzukuri/kansenshou/coronavirus.html',
+            'https://www.pref.miyagi.jp/site/covid-19/',
           divider: true
         },
         {
           title: this.$t('City official website'),
-          link: 'https://www.city.matsudo.chiba.jp/index.html'
+          link: 'https://www.city.sendai.jp/'
         },
         {
           title: this.$t('Government official website'),
-          link: 'https://www.pref.chiba.lg.jp/',
-          divider: true
-        },
-        {
-          title: this.$t('Chiba COVID19 site'),
-          link: 'https://covid19.civictech.chiba.jp',
-        },
-        {
-          title: this.$t('Tokyo COVID19 site'),
-          link: 'https://stopcovid19.metro.tokyo.lg.jp/',
+          link: 'https://www.pref.miyagi.jp/',
           divider: true
         },
         {

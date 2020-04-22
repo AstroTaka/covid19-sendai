@@ -15,13 +15,13 @@ type RssNewsItemResponse = {
 }
 
 const PressReleaseFromChibaPrefectureUrl =
-  'https://www.city.matsudo.chiba.jp/rss_news.xml'
+  'https://www.city.sendai.jp/shinchaku/shinchaku.xml'
 
 const parser = new RssParser()
 const convertRssItemToNewsItem = (
   responses: RssNewsItemResponse
 ): NewsItem => ({
-  date: responses.pubDate,
+  date: responses.date,
   link: responses.link,
   title: responses.title
 })

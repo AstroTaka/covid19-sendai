@@ -1,8 +1,8 @@
 {
   "name": "covid19",
   "version": "1.0.0",
-  "description": "松戸市 新型コロナウイルス感染症対策サイト",
-  "author": "松戸市",
+  "description": "仙台市 新型コロナウイルス感染症対策サイト",
+  "author": "仙台市",
   "private": true,
   "engines": {
     "node": ">=10.19.0"
