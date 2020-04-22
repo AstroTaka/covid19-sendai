@@ -179,7 +179,7 @@ export default {
       patientsGraph,
       dischargesTable,
       dischargesGraph,
-      // contactsGraph,
+      contactsGraph,
       // querentsGraph,
       inspectionsGraph,
       inspectionsItems,
