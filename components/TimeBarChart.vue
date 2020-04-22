@@ -25,7 +25,6 @@
 import DataView from '@/components/DataView.vue'
 import DataSelector from '@/components/DataSelector.vue'
 import DataViewBasicInfoPanel from '@/components/DataViewBasicInfoPanel.vue'
-import { getGraphSeriesStyle, SurfaceStyle } from '@/utils/color'
 
 export default {
   components: { DataView, DataSelector, DataViewBasicInfoPanel },
@@ -112,7 +111,7 @@ export default {
               data: this.chartData.map(d => {
                 return d.transition
               }),
-              backgroundColor: graphSeries[0].fillColor,
+              backgroundColor: '#1b4d30',
               borderWidth: 0
             }
           ]
@@ -128,7 +127,7 @@ export default {
             data: this.chartData.map(d => {
               return d.cumulative
             }),
-            backgroundColor: graphSeries[0].fillColor,
+            backgroundColor: '#1b4d30',
             borderWidth: 0
           }
         ]
