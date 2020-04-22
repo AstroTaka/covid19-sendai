@@ -74,7 +74,7 @@
           :unit="'件'"
         />
       </v-col>
-      <!-- <v-col cols="12" md="6" class="DataCard">
+      <v-col cols="12" md="6" class="DataCard">
         <time-bar-chart
           title="新型コロナコールセンター相談件数"
           :title-id="'number-of-reports-to-covid19-telephone-advisory-center'"
@@ -84,7 +84,7 @@
           :unit="'件'"
           :url="''"
         />
-      </v-col> -->
+      </v-col>
       <!-- <v-col cols="12" md="6" class="DataCard">
         <time-bar-chart
           title="帰国者接触者センター相談件数"
@@ -135,7 +135,7 @@ export default {
     // 退院者数
     const dischargesTable = formatTable(Data.discharges.data)
     // // 相談件数
-    // const contactsGraph = formatGraph(Data.contacts.data)
+    const contactsGraph = formatGraph(Data.contacts.data)
     // // 帰国者・接触者電話相談センター相談件数
     // const querentsGraph = formatGraph(Data.querents.data)
     // 都営地下鉄の利用者数の推移
@@ -179,7 +179,7 @@ export default {
       patientsGraph,
       dischargesTable,
       dischargesGraph,
-      //contactsGraph,
+      contactsGraph,
       // querentsGraph,
       inspectionsGraph,
       inspectionsItems,
