@@ -8,7 +8,7 @@
     <whats-new class="mb-4" :items="newsItems" />
     <static-info
       class="mb-4"
-      url="https://www.pref.chiba.lg.jp/kenfuku/kansenshou/corona-soudan.html"
+      url="https://www.city.sendai.jp/kenkoanzen-kansen/kurashi/kenkotofukushi/kenkoiryo/kansensho/shippebetsu/kansensho/cvsimin.html"
       :text="'自分や家族の症状に不安や心配があればまずは電話相談をどうぞ'"
       :btn-text="'相談の手順を見る'"
     />
