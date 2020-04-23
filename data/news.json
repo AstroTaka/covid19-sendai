@@ -1,6 +1,11 @@
 {
   "newsItems": [
     {
+      "date": "2020-04-23T08:00:00.000Z",
+      "link": "http://www.city.sendai.jp/kosekijumin/covid/covid_19.html",
+      "title": "新型コロナウイルス感染症拡大防止に伴うマイナンバーカードおよび電子証明書の更新手続きについて"
+    },
+    {
       "date": "2020-04-22T13:00:00.000Z",
       "link": "http://www.city.sendai.jp/sesakukoho/gaiyo/shichoshitsu/kaiken/oshirase.html",
       "title": "市長記者会見を更新しました（新型コロナウイルス感染症対策に係る体制を強化します・都市再生緊急整備地域の拡大等について国へ素案の申し出を行いました）"
