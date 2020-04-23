@@ -61,11 +61,6 @@
             'https://catalog.data.metro.tokyo.lg.jp/dataset/t000010d0000000068'
           "
         />
-        <template #supplement>
-          <p class="Graph-Desc">
-            ※退院には、死亡退院を含む
-          </p>
-        </template
       </v-col>
       <v-col cols="12" md="6" class="DataCard">
         <time-stacked-bar-chart
