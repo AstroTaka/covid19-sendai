@@ -30,7 +30,7 @@ const config: Configuration = {
       {
         hid: 'og:url',
         property: 'og:url',
-        content: 'https://www.city.matsudo.chiba.jp/kenko_fukushi/kansenshou/index.html'
+        content: 'https://www.city.sendai.jp/kikikanri/kinkyu/corona2020/index.html'
       },
       {
         hid: 'og:title',
@@ -56,12 +56,12 @@ const config: Configuration = {
       {
         hid: 'twitter:site',
         name: 'twitter:site',
-        content: '@chibaken_saigai'
+        content: '@@sendai_kiki'
       },
       {
         hid: 'twitter:creator',
         name: 'twitter:creator',
-        content: '@chibaken_saigai'
+        content: '@@sendai_kiki'
       },
       {
         hid: 'twitter:image',
