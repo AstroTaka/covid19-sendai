@@ -1,6 +1,11 @@
 {
   "newsItems": [
     {
+      "date": "2020-04-24T06:00:00.000Z",
+      "link": "http://www.city.sendai.jp/kikakushien/kyouryokukin_kisyahappyou.html",
+      "title": "新型コロナウイルス感染拡大防止　休業要請にかかる協力金の支給額を拡充します"
+    },
+    {
       "date": "2020-04-23T08:00:00.000Z",
       "link": "http://www.city.sendai.jp/kosekijumin/covid/covid_19.html",
       "title": "新型コロナウイルス感染症拡大防止に伴うマイナンバーカードおよび電子証明書の更新手続きについて"
