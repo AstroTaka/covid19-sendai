@@ -164,7 +164,7 @@
             mdi-open-in-new
           </v-icon> </a
         >で公開されており、誰でも自由に利用することができます。詳しくは、<a
-          href="https://github.com/AstroTaka/covid19-matsudo"
+          href="https://github.com/AstroTaka/covid19-sendai"
           target="_blank"
           rel="noopener"
           >GitHub リポジトリ
