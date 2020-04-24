@@ -99,7 +99,7 @@
     "Measures site": "対策サイト",
     "Miyagi Prefecture": "宮城県",
     "Sendai City": "仙台市",
-    "The latest updates": "松戸市の最新感染動向",
+    "The latest updates": "仙台市の最新感染動向",
     "Information": "お知らせ一覧",
     "for Families with children": "お子様をお持ちの皆様へ",
     "for Citizens": "県民の皆様へ",
