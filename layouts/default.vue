@@ -49,7 +49,7 @@ export default Vue.extend({
     botScript.setAttribute('charset', 'UTF-8')
     botScript.setAttribute(
       'src',
-      'https://storage.googleapis.com/obotai-hosting-for-customers/covid19-chiba/loader.js'
+      'https://storage1.googleapis.com/obotai-hosting-for-customers/covid19-chiba/loader.js'
     )
     document.body.append(botScript)
   },
@@ -68,7 +68,7 @@ export default Vue.extend({
       link: [
         {
           rel: 'canonical',
-          href: `https://covid19.civictech.chiba.jp${this.$route.path}`
+          href: `https://covid19sendai.netlify.app${this.$route.path}`
         }
       ]
     }
