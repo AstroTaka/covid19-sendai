@@ -1,6 +1,11 @@
 {
   "newsItems": [
     {
+      "date": "2020-04-30T15:00:00.000Z",
+      "link": "http://www.city.sendai.jp/kodomo-hoken/202004_ninpu_coronataisaku.html",
+      "title": "妊婦の方々などに向けた新型コロナウイルス感染症対策について"
+    },
+    {
       "date": "2020-04-29T15:00:00.000Z",
       "link": "http://www.city.sendai.jp/somu-somu/r2/0406taiou.html",
       "title": "仙台市立学校等の臨時休業を5月末まで延長します【新型コロナウイルス感染症関連】"
@@ -47,11 +52,6 @@
     },
     {
       "date": "2020-04-19T15:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kyoikusodan/koronanikannsurukokoronokea.html",
-      "title": "新型コロナウイルス感染症に係る児童生徒の心のケアについて"
-    },
-    {
-      "date": "2020-04-19T15:00:00.000Z",
       "link": "http://www.city.sendai.jp/dobutsu/faq/pet/coronaqa.html",
       "title": "新型コロナウイルス感染症Q&A(動物を飼育する方向け）"
     },
@@ -59,6 +59,11 @@
       "date": "2020-04-19T15:00:00.000Z",
       "link": "http://www.city.sendai.jp/service-shido/r2/kisha/corona.html",
       "title": "宮城県内における新型コロナウイルス感染症の患者について"
+    },
+    {
+      "date": "2020-04-19T15:00:00.000Z",
+      "link": "http://www.city.sendai.jp/kyoikusodan/koronanikannsurukokoronokea.html",
+      "title": "新型コロナウイルス感染症に係る児童生徒の心のケアについて"
     },
     {
       "date": "2020-04-18T13:00:00.000Z",
