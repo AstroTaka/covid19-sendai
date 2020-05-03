@@ -1,6 +1,11 @@
 {
   "newsItems": [
     {
+      "date": "2020-05-03T13:00:00.000Z",
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/0503hokenjo.html",
+      "title": "新型コロナウイルス感染症関連　「区役所」や「保健所」などを名乗る不審な電話にご注意ください"
+    },
+    {
       "date": "2020-05-01T10:00:00.000Z",
       "link": "http://www.city.sendai.jp/shiminsekatsu/tokubetsukyufu.html",
       "title": "特別定額給付金について（新型コロナウイルス感染症関連）"
