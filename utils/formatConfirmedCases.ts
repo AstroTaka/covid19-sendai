@@ -29,7 +29,7 @@ type DataType = {
           value: number
         },
         {
-          attr: '入院調整中'
+          attr: '療養中'
           value: number
         }          
       ]
@@ -45,7 +45,7 @@ type ConfirmedCasesType = {
   重症: number
   死亡: number
   退院: number
-  入院調整中: number
+  療養中: number
 }
 
 export default (data: DataType) => {
@@ -57,7 +57,7 @@ export default (data: DataType) => {
     重症: data.children[0].children[0].children[1].value,
     死亡: data.children[0].children[2].value,
     退院: data.children[0].children[1].value,
-    入院調整中: data.children[0].children[3].value
+    療養中: data.children[0].children[3].value
   }
   return formattedData
 }
