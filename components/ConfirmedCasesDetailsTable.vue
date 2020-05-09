@@ -225,7 +225,7 @@ $default-boxdiff: 35px;
     }
     > .group {
       // [6列] 5/6
-      width: calc((100% + #{$default-bdw} * 2) / 5 * 4 + #{$default-bdw});
+      width: calc((100% + #{$default-bdw} * 2) / 5 * 5 + #{$default-bdw});
     }
   }
   &.hospitalized {
@@ -336,7 +336,7 @@ $default-boxdiff: 35px;
       }
       > .group {
         width: calc(
-          (100% + #{px2vw($bdw, $vw)} * 2) / 5 * 4 + #{px2vw($bdw, $vw)}
+          (100% + #{px2vw($bdw, $vw)} * 2) / 5 * 5 + #{px2vw($bdw, $vw)}
         );
       }
     }
