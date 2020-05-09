@@ -64,7 +64,7 @@
         <li :class="[$style.box, $style.recovered]">
           <div :class="$style.pillar">
             <div :class="$style.content">
-              <span>退院</span>
+              <span>退院・<br />療養解除</span>
               <span>
                 <strong>{{ 退院.toLocaleString() }}</strong>
                 <span :class="$style.unit">人</span>
@@ -225,7 +225,7 @@ $default-boxdiff: 35px;
     }
     > .group {
       // [6列] 5/6
-      width: calc((100% + #{$default-bdw} * 2) / 5 * 5 + #{$default-bdw});
+      width: calc((100% + #{$default-bdw} * 2) / 5 * 4 + #{$default-bdw});
     }
   }
   &.hospitalized {
@@ -336,7 +336,7 @@ $default-boxdiff: 35px;
       }
       > .group {
         width: calc(
-          (100% + #{px2vw($bdw, $vw)} * 2) / 5 * 5 + #{px2vw($bdw, $vw)}
+          (100% + #{px2vw($bdw, $vw)} * 2) / 5 * 4 + #{px2vw($bdw, $vw)}
         );
       }
     }
