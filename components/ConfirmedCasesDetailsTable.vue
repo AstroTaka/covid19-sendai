@@ -49,32 +49,6 @@
               </span>
             </div>
           </div>
-          <ul :class="$style.group">
-            <li :class="[$style.box, $style.short, $style.minor]">
-              <div :class="$style.pillar">
-                <div :class="$style.content">
-                  <!-- eslint-disable vue/no-v-html-->
-                  <span v-html="$t('軽症・<br />中等症')" />
-                  <!-- eslint-enable vue/no-v-html-->
-                  <span>
-                    <strong>{{ 軽症中等症.toLocaleString() }}</strong>
-                    <span :class="$style.unit">人</span>
-                  </span>
-                </div>
-              </div>
-            </li>
-            <li :class="[$style.box, $style.short, $style.severe]">
-              <div :class="$style.pillar">
-                <div :class="$style.content">
-                  <span>重症</span>
-                  <span>
-                    <strong>{{ 重症.toLocaleString() }}</strong>
-                    <span :class="$style.unit">人</span>
-                  </span>
-                </div>
-              </div>
-            </li>
-          </ul>
         </li>
         <li :class="[$style.box, $style.deceased]">
           <div :class="$style.pillar">
