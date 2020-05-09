@@ -221,11 +221,11 @@ $default-boxdiff: 35px;
     width: 100%;
     > .pillar {
       // [6列] 1/6
-      width: calc((100% + #{$default-bdw} * 2) / 5 - #{$default-bdw} * 3);
+      width: calc((100% + #{$default-bdw} * 2) / 6 - #{$default-bdw} * 3);
     }
     > .group {
       // [6列] 5/6
-      width: calc((100% + #{$default-bdw} * 2) / 5 * 5 + #{$default-bdw});
+      width: calc((100% + #{$default-bdw} * 2) / 6 * 5 + #{$default-bdw});
     }
   }
   &.hospitalized {
@@ -331,12 +331,12 @@ $default-boxdiff: 35px;
       margin-left: px2vw($bdw, $vw);
       > .pillar {
         width: calc(
-          (100% + #{px2vw($bdw, $vw)} * 2) / 5 - #{px2vw($bdw, $vw)} * 3
+          (100% + #{px2vw($bdw, $vw)} * 2) / 6 - #{px2vw($bdw, $vw)} * 3
         );
       }
       > .group {
         width: calc(
-          (100% + #{px2vw($bdw, $vw)} * 2) / 5 * 5 + #{px2vw($bdw, $vw)}
+          (100% + #{px2vw($bdw, $vw)} * 2) / 6 * 5 + #{px2vw($bdw, $vw)}
         );
       }
     }
