@@ -39,7 +39,7 @@
             </div>
           </div>
         </li>
-        <li :class="[$style.box, $style.parent, $style.hospitalized]">
+        <li :class="[$style.box, $style.deceased]">
           <div :class="$style.pillar">
             <div :class="$style.content">
               <span>入院中</span>
