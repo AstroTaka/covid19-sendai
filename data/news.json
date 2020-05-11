@@ -1,6 +1,11 @@
 {
   "newsItems": [
     {
+      "date": "2020-05-11T05:00:00.000Z",
+      "link": "http://www.city.sendai.jp/somu-somu/r2/0406taiou.html",
+      "title": "仙台市立学校等の臨時休業を5月末まで延長します【新型コロナウイルス感染症関連】"
+    },
+    {
       "date": "2020-05-08T10:00:00.000Z",
       "link": "http://www.city.sendai.jp/kodomo-hoken/202004_ninpu_coronataisaku.html",
       "title": "妊婦の方々などに向けた新型コロナウイルス感染症対策について"
