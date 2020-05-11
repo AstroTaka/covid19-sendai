@@ -1,6 +1,11 @@
 {
   "newsItems": [
     {
+      "date": "2020-05-11T10:00:00.000Z",
+      "link": "http://www.city.sendai.jp/haiki-kanri/sinngatakoronatiiki.html",
+      "title": "新型コロナウイルス感染症拡大防止のためのごみの出し方"
+    },
+    {
       "date": "2020-05-11T05:00:00.000Z",
       "link": "http://www.city.sendai.jp/somu-somu/r2/0406taiou.html",
       "title": "仙台市立学校等の臨時休業を5月末まで延長します【新型コロナウイルス感染症関連】"
