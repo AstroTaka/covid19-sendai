@@ -1,6 +1,11 @@
 {
   "newsItems": [
     {
+      "date": "2020-05-14T15:00:00.000Z",
+      "link": "http://www.city.sendai.jp/siei-kikaku/corona-shieijutaku.html",
+      "title": "新型コロナウイルス感染症の影響によりお住まいにお困りの方へ市営住宅を一時提供します"
+    },
+    {
       "date": "2020-05-13T10:00:00.000Z",
       "link": "http://www.city.sendai.jp/kodomo-hoken/202004_ninpu_coronataisaku.html",
       "title": "妊婦の方々などに向けた新型コロナウイルス感染症対策について"
@@ -102,13 +107,13 @@
     },
     {
       "date": "2020-04-19T15:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kyoikusodan/koronanikannsurukokoronokea.html",
-      "title": "新型コロナウイルス感染症に係る児童生徒の心のケアについて"
+      "link": "http://www.city.sendai.jp/service-shido/r2/kisha/corona.html",
+      "title": "宮城県内における新型コロナウイルス感染症の患者について"
     },
     {
       "date": "2020-04-19T15:00:00.000Z",
-      "link": "http://www.city.sendai.jp/service-shido/r2/kisha/corona.html",
-      "title": "宮城県内における新型コロナウイルス感染症の患者について"
+      "link": "http://www.city.sendai.jp/kyoikusodan/koronanikannsurukokoronokea.html",
+      "title": "新型コロナウイルス感染症に係る児童生徒の心のケアについて"
     },
     {
       "date": "2020-04-18T13:00:00.000Z",
