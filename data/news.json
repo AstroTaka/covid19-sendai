@@ -1,6 +1,11 @@
 {
   "newsItems": [
     {
+      "date": "2020-05-22T10:00:00.000Z",
+      "link": "http://www.city.sendai.jp/kenko-hoken/kurashi/tetsuzuki/kokumin/kenkohoken/corona_genmen2.html",
+      "title": "【新型コロナウイルス感染症関連】収入が減少したこと等による保険料の減免について"
+    },
+    {
       "date": "2020-05-21T06:00:00.000Z",
       "link": "http://www.city.sendai.jp/somu-somu/r2/0406taiou.html",
       "title": "仙台市立学校等を５月末まで臨時休業とします【新型コロナウイルス感染症関連】"
@@ -122,13 +127,13 @@
     },
     {
       "date": "2020-04-19T15:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kyoikusodan/koronanikannsurukokoronokea.html",
-      "title": "新型コロナウイルス感染症に係る児童生徒の心のケアについて"
+      "link": "http://www.city.sendai.jp/service-shido/r2/kisha/corona.html",
+      "title": "宮城県内における新型コロナウイルス感染症の患者について"
     },
     {
       "date": "2020-04-19T15:00:00.000Z",
-      "link": "http://www.city.sendai.jp/service-shido/r2/kisha/corona.html",
-      "title": "宮城県内における新型コロナウイルス感染症の患者について"
+      "link": "http://www.city.sendai.jp/kyoikusodan/koronanikannsurukokoronokea.html",
+      "title": "新型コロナウイルス感染症に係る児童生徒の心のケアについて"
     },
     {
       "date": "2020-04-18T13:00:00.000Z",
