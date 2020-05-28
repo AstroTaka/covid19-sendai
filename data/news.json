@@ -1,6 +1,11 @@
 {
   "newsItems": [
     {
+      "date": "2020-05-28T14:00:00.000Z",
+      "link": "http://www.city.sendai.jp/sesakukoho/gaiyo/shichoshitsu/kaiken/oshirase.html",
+      "title": "市長記者会見を更新しました【新型コロナウイルス感染症に対応した緊急経済対策（第3弾）を実施します、令和2年第2回定例会に提出する議案について】"
+    },
+    {
       "date": "2020-05-26T15:00:00.000Z",
       "link": "http://www.city.sendai.jp/kikikanri/kurashi/kenkotofukushi/kenkoiryo/kansensho/kanen/kansensyoutaisaku0526.html",
       "title": "新型コロナウイルス感染症対策（令和2年5月26日から7月31日まで）"
@@ -132,13 +137,13 @@
     },
     {
       "date": "2020-04-19T15:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kyoikusodan/koronanikannsurukokoronokea.html",
-      "title": "新型コロナウイルス感染症に係る児童生徒の心のケアについて"
+      "link": "http://www.city.sendai.jp/service-shido/r2/kisha/corona.html",
+      "title": "宮城県内における新型コロナウイルス感染症の患者について"
     },
     {
       "date": "2020-04-19T15:00:00.000Z",
-      "link": "http://www.city.sendai.jp/service-shido/r2/kisha/corona.html",
-      "title": "宮城県内における新型コロナウイルス感染症の患者について"
+      "link": "http://www.city.sendai.jp/kyoikusodan/koronanikannsurukokoronokea.html",
+      "title": "新型コロナウイルス感染症に係る児童生徒の心のケアについて"
     },
     {
       "date": "2020-04-18T13:00:00.000Z",
