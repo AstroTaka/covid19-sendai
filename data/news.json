@@ -1,6 +1,11 @@
 {
   "newsItems": [
     {
+      "date": "2020-06-03T14:00:00.000Z",
+      "link": "http://www.city.sendai.jp/sesakukoho/gaiyo/shichoshitsu/kaiken/oshirase.html",
+      "title": "市長記者会見を更新しました（臨時）【「仙台市新型コロナウイルス感染症緊急対策プラン」を策定しました】"
+    },
+    {
       "date": "2020-06-02T00:00:00.000Z",
       "link": "http://www.city.sendai.jp/siei-kikaku/corona-shieijutaku-teikyo2.html",
       "title": "新型コロナウイルス感染症の影響によりお住まいにお困りの方へ市営住宅を一時提供します（第2回）"
@@ -137,11 +142,6 @@
     },
     {
       "date": "2020-04-19T15:00:00.000Z",
-      "link": "http://www.city.sendai.jp/service-shido/r2/kisha/corona.html",
-      "title": "宮城県内における新型コロナウイルス感染症の患者について"
-    },
-    {
-      "date": "2020-04-19T15:00:00.000Z",
       "link": "http://www.city.sendai.jp/kyoikusodan/koronanikannsurukokoronokea.html",
       "title": "新型コロナウイルス感染症に係る児童生徒の心のケアについて"
     },
@@ -149,6 +149,11 @@
       "date": "2020-04-19T15:00:00.000Z",
       "link": "http://www.city.sendai.jp/dobutsu/faq/pet/coronaqa.html",
       "title": "新型コロナウイルス感染症Q&A(動物を飼育する方向け）"
+    },
+    {
+      "date": "2020-04-19T15:00:00.000Z",
+      "link": "http://www.city.sendai.jp/service-shido/r2/kisha/corona.html",
+      "title": "宮城県内における新型コロナウイルス感染症の患者について"
     },
     {
       "date": "2020-04-18T13:00:00.000Z",
