@@ -1,6 +1,11 @@
 {
   "newsItems": [
     {
+      "date": "2020-06-05T04:00:00.000Z",
+      "link": "http://www.city.sendai.jp/kikakushien/corona_tyousa_kisyahappyou0605.html",
+      "title": "新型コロナウイルス感染症にかかる市内の事業所への影響調査を実施します"
+    },
+    {
       "date": "2020-06-04T15:00:00.000Z",
       "link": "http://www.city.sendai.jp/siei-kikaku/corona-shieijutaku-teikyo2.html",
       "title": "新型コロナウイルス感染症の影響によりお住まいにお困りの方へ市営住宅を一時提供します（第2回）"
@@ -147,11 +152,6 @@
     },
     {
       "date": "2020-04-19T15:00:00.000Z",
-      "link": "http://www.city.sendai.jp/dobutsu/faq/pet/coronaqa.html",
-      "title": "新型コロナウイルス感染症Q&A(動物を飼育する方向け）"
-    },
-    {
-      "date": "2020-04-19T15:00:00.000Z",
       "link": "http://www.city.sendai.jp/service-shido/r2/kisha/corona.html",
       "title": "宮城県内における新型コロナウイルス感染症の患者について"
     },
@@ -159,6 +159,11 @@
       "date": "2020-04-19T15:00:00.000Z",
       "link": "http://www.city.sendai.jp/kyoikusodan/koronanikannsurukokoronokea.html",
       "title": "新型コロナウイルス感染症に係る児童生徒の心のケアについて"
+    },
+    {
+      "date": "2020-04-19T15:00:00.000Z",
+      "link": "http://www.city.sendai.jp/dobutsu/faq/pet/coronaqa.html",
+      "title": "新型コロナウイルス感染症Q&A(動物を飼育する方向け）"
     },
     {
       "date": "2020-04-18T13:00:00.000Z",
