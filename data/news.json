@@ -1,6 +1,11 @@
 {
   "newsItems": [
     {
+      "date": "2020-06-15T13:00:00.000Z",
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/0615corona.html",
+      "title": "空港検疫による新型コロナウイルス感染症患者の発生について"
+    },
+    {
       "date": "2020-06-05T04:00:00.000Z",
       "link": "http://www.city.sendai.jp/kikakushien/corona_tyousa_kisyahappyou0605.html",
       "title": "新型コロナウイルス感染症にかかる市内の事業所への影響調査を実施します"
