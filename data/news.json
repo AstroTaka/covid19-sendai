@@ -1,6 +1,11 @@
 {
   "newsItems": [
     {
+      "date": "2020-07-08T06:00:00.000Z",
+      "link": "http://www.city.sendai.jp/kankokikaku/shisetsu/telework.html",
+      "title": "新型コロナウイルス感染拡大防止に向けた宿泊施設の取り組みを紹介しています"
+    },
+    {
       "date": "2020-07-04T14:00:00.000Z",
       "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/0704corona.html",
       "title": "新型コロナウイルス感染症の患者の発生について（仙台市内70例目）"
