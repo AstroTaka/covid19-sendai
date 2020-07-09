@@ -1,6 +1,11 @@
 {
   "newsItems": [
     {
+      "date": "2020-07-09T14:00:00.000Z",
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/0709corona.html",
+      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内72例目）"
+    },
+    {
       "date": "2020-07-08T14:00:00.000Z",
       "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/0708corona.html",
       "title": "新型コロナウイルス感染症の患者の発生について（仙台市内71例目）"
