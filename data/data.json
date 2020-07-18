@@ -5074,12 +5074,16 @@
         "value": 96,
         "children": [
           {
+            "attr": "入院調整中",
+            "value": 11
+          },
+          {
             "attr": "入院中",
-            "value": 17,
+            "value": 6,
             "children": [
               {
                 "attr": "軽症・中等症",
-                "value": 17
+                "value": 6
               },
               {
                 "attr": "重症",
