@@ -28,6 +28,19 @@
         </div>
       </div>
       <ul :class="$style.group">
+    <li :class="[$style.box, $style.tall, $style.parent, $style.confirmed]">
+      <div :class="$style.pillar">
+        <div :class="$style.content">
+          <span>
+            現在の感染者
+          </span>
+          <span>
+            <strong>{{ 現在の感染者.toLocaleString() }}</strong>
+            <span :class="$style.unit">人</span>
+          </span>
+        </div>
+      </div>
+      <ul :class="$style.group">      
         <li :class="[$style.box, $style.deceased]">
           <div :class="$style.pillar">
             <div :class="$style.content">
@@ -71,6 +84,9 @@
               </span>
             </div>
           </div>
+        </li>
+        </ul>
+        </div>
         </li>
         <li :class="[$style.box, $style.deceased]">
           <div :class="$style.pillar">
@@ -120,7 +136,7 @@ export default Vue.extend({
       type: Number,
       required: true
     },
-    軽症中等症: {
+    現在の感染者: {
       type: Number,
       required: true
     },
@@ -231,6 +247,7 @@ $default-boxdiff: 35px;
     border-left: $default-bdw solid $green-1;
     position: relative;
     padding-top: $default-boxdiff - $default-bdw * 2;
+    margin-left: 3px;
     &::after {
       content: '';
       display: block;
