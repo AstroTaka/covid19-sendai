@@ -80,7 +80,7 @@ jobs:
             -m "ニュース自動更新（$(date +'%Y/%m/%d %H:%M')）" \
             -m ":newspaper: ニュースの自動更新です" \
             -l "auto_merge"
-          curl -X POST \
-             -H "Authorization: Bearer ${LINE_TOKEN}" \
-             -F "message=news.jsonを更新しました。"  \
-             ${URL}
+#          curl -X POST \
+#             -H "Authorization: Bearer ${LINE_TOKEN}" \
+#             -F "message=news.jsonを更新しました。"  \
+#             ${URL}
