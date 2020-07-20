@@ -19,7 +19,7 @@
       <v-col cols="12" md="6" class="DataCard">
         <!--
         <time-bar-chart
-          title="陽性患者数"
+          title="仙台市の陽性患者数"
           :title-id="'number-of-confirmed-cases'"
           :chart-id="'time-bar-chart-patients'"
           :chart-data="patientsGraph"
@@ -31,7 +31,7 @@
         />
         -->
         <time-stacked-bar-chart
-          title="陽性反応者数の推移"
+          title="仙台市の陽性反応者数の推移"
           :title-id="'number-of-tested'"
           :chart-id="'time-stacked-bar-chart-inspections'"
           :chart-data="patientsAndNoSymptomsGraph"
@@ -51,7 +51,7 @@
       </v-col>
       <v-col cols="12" md="6" class="DataCard">
         <data-table
-          :title="'陽性患者の属性'"
+          :title="'仙台市の陽性患者の属性'"
           :title-id="'attributes-of-confirmed-cases'"
           :chart-data="patientsTable"
           :chart-option="{}"
@@ -64,7 +64,7 @@
       </v-col>
       <v-col cols="12" md="6" class="DataCard">
         <time-stacked-bar-chart
-          title="検査実施数"
+          title="宮城県の検査実施数"
           :title-id="'number-of-tested'"
           :chart-id="'time-stacked-bar-chart-inspections'"
           :chart-data="inspectionsGraph"
@@ -76,7 +76,7 @@
       </v-col>
       <v-col cols="12" md="6" class="DataCard">
         <time-bar-chart
-          title="新型コロナコールセンター相談件数"
+          title="宮城県の新型コロナコールセンター相談件数"
           :title-id="'number-of-reports-to-covid19-telephone-advisory-center'"
           :chart-id="'time-bar-chart-contacts'"
           :chart-data="contactsGraph"
@@ -87,7 +87,7 @@
       </v-col>
       <!-- <v-col cols="12" md="6" class="DataCard">
         <time-bar-chart
-          title="帰国者接触者センター相談件数"
+          title="宮城県の帰国者接触者センター相談件数"
           :title-id="'number-of-reports-to-covid19-consultation-desk'"
           :chart-id="'time-bar-chart-querents'"
           :chart-data="querentsGraph"
