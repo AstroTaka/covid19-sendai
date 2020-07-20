@@ -31,9 +31,20 @@
         <li :class="[$style.box, $style.deceased]">
           <div :class="$style.pillar">
             <div :class="$style.content">
-              <span>自宅・ホテル療養中</span>
+              <span>自宅療養中</span>
               <span>
-                <strong>{{ 療養中.toLocaleString() }}</strong>
+                <strong>{{ 自宅療養中.toLocaleString() }}</strong>
+                <span :class="$style.unit">人</span>
+              </span>
+            </div>
+          </div>
+        </li>
+        <li :class="[$style.box, $style.deceased]">
+          <div :class="$style.pillar">
+            <div :class="$style.content">
+              <span>ホテル療養中</span>
+              <span>
+                <strong>{{ ホテル療養中.toLocaleString() }}</strong>
                 <span :class="$style.unit">人</span>
               </span>
             </div>
@@ -117,7 +128,11 @@ export default Vue.extend({
       type: Number,
       required: true
     },
-    療養中: {
+    自宅療養中: {
+      type: Number,
+      required: true
+    },
+    ホテル療養中: {
       type: Number,
       required: true
     },
