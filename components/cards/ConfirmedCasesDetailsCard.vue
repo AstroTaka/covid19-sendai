@@ -1,6 +1,6 @@
 <template>
   <data-view
-    :title="$t('検査陽性者の状況')"
+    :title="$t('仙台市の検査陽性者の状況')"
     :title-id="'details-of-confirmed-cases'"
     :date="Data.patients.date"
   >
@@ -13,7 +13,7 @@
       </p>
     </template>
     <confirmed-cases-details-table
-      :aria-label="$t('検査陽性者の状況')"
+      :aria-label="$t('仙台市の検査陽性者の状況')"
       v-bind="confirmedCases"
     />
   </data-view>
