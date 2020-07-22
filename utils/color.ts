@@ -3,12 +3,12 @@ export type SurfaceStyle = {
   fillColor: string
 }
 
-const surfaceStyleA: SurfaceStyle = {
+const surfaceStyleB: SurfaceStyle = {
   strokeColor: '#5a8055',
   fillColor: '#1b4d30'
 }
 
-const surfaceStyleB: SurfaceStyle = {
+const surfaceStyleA: SurfaceStyle = {
   strokeColor: '#5a8055',
   fillColor: '#00a040'
 }
