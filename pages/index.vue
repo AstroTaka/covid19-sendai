@@ -32,8 +32,8 @@
         -->
         <time-stacked-bar-chart
           title="仙台市の陽性反応者数の推移"
-          :title-id="'number-of-tested'"
-          :chart-id="'time-stacked-bar-chart-inspections'"
+          :title-id="'number-of-positive-case'"
+          :chart-id="'time-stacked-bar-chart-positive-case'"
           :chart-data="patientsAndNoSymptomsGraph"
           :date="Data.patients_and_no_symptoms_summary.date"
           :items="patientsAndNoSymptomsItems"
@@ -56,6 +56,17 @@
           :url="
             'https://catalog.data.metro.tokyo.lg.jp/dataset/t000010d0000000068'
           "
+        />
+      </v-col>
+      <v-col cols="12" md="6" class="DataCard">
+        <time-bar-chart
+          title="仙台市の患者数の推移"
+          :title-id="'number-of-patients'"
+          :chart-id="'time-bar-chart-patients'"
+          :chart-data="currentPatientsGraph"
+          :date="Data.patients.date"
+          :unit="'人'"
+          :url="''"
         />
       </v-col>
       <v-col cols="12" md="6" class="DataCard">
@@ -132,6 +143,9 @@ export default {
     const dischargesTable = formatTable(Data.discharges.data)
     // // 相談件数
     const contactsGraph = formatGraph(Data.contacts.data)
+
+    const currentPatientsGraph = formatGraph(Data.current_patients.data)
+
     // // 帰国者・接触者電話相談センター相談件数
     // const querentsGraph = formatGraph(Data.querents.data)
     // 都営地下鉄の利用者数の推移
@@ -176,6 +190,7 @@ export default {
       dischargesTable,
       dischargesGraph,
       contactsGraph,
+      currentPatientsGraph,
       // querentsGraph,
       inspectionsGraph,
       inspectionsItems,
