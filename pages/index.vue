@@ -155,16 +155,16 @@ export default {
       Data.inspections_summary.data['その他']
     ]
     const inspectionsItems = [
-      '市中感染・輸入例（疑い例・接触者調査）',
-      'その他（チャーター便・クルーズ便等）'
+    //  '市中感染・輸入例（疑い例・接触者調査）',
+    //  'その他（チャーター便・クルーズ便等）'
     ]
     const inspectionsLabels = Data.inspections_summary.labels
     // 千葉県用データ
     const patientsAndNoSymptomsGraph = [
-      Data.patients_and_no_symptoms_summary.data['患者'],
-      Data.patients_and_no_symptoms_summary.data['無症状病原体保有者']
+      Data.patients_and_no_symptoms_summary.data['患者']
+      //Data.patients_and_no_symptoms_summary.data['無症状病原体保有者']
     ]
-    const patientsAndNoSymptomsItems = ['陽性患者', '無症状病原体保有者']
+    const patientsAndNoSymptomsItems = ['陽性患者']
     const patientsAndNoSymptomsLabels =
       Data.patients_and_no_symptoms_summary.labels
     // 死亡者数
