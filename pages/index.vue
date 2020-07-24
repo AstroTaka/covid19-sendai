@@ -17,7 +17,6 @@
         <confirmed-cases-details-card />
       </v-col>
       <v-col cols="12" md="6" class="DataCard">
-        <!--
         <time-bar-chart
           title="仙台市の陽性患者数"
           :title-id="'number-of-confirmed-cases'"
@@ -29,21 +28,6 @@
             'https://catalog.data.metro.tokyo.lg.jp/dataset/t000010d0000000068'
           "
         />
-        -->
-        <time-stacked-bar-chart
-          title="仙台市の陽性反応者数の推移"
-          :title-id="'number-of-positive-case'"
-          :chart-id="'time-stacked-bar-chart-positive-case'"
-          :chart-data="patientsAndNoSymptomsGraph"
-          :date="Data.patients_and_no_symptoms_summary.date"
-          :items="patientsAndNoSymptomsItems"
-          :labels="patientsAndNoSymptomsLabels"
-          :unit="'件'"
-        >
-          <template #supplement>
-
-          </template>
-        </time-stacked-bar-chart>
       </v-col>
       <v-col cols="12" md="6" class="DataCard">
         <data-table
@@ -70,15 +54,14 @@
         />
       </v-col>
       <v-col cols="12" md="6" class="DataCard">
-        <time-stacked-bar-chart
+        <time-bar-chart
           title="宮城県の検査実施数"
           :title-id="'number-of-tested'"
-          :chart-id="'time-stacked-bar-chart-inspections'"
-          :chart-data="inspectionsGraph"
-          :date="Data.inspections_summary.date"
-          :items="inspectionsItems"
-          :labels="inspectionsLabels"
-          :unit="'件'"
+          :chart-id="'time-bar-chart-inspections'"
+          :chart-data="inspectionsBarGraph"
+          :date="Data.inspections.date"
+          :unit="'人'"
+          :url="''"
         />
       </v-col>
       <v-col cols="12" md="6" class="DataCard">
@@ -134,7 +117,7 @@ export default {
   },
   data() {
     // 感染者数グラフ
-    const patientsGraph = formatGraph(Data.patients_summary.data)
+    const patientsGraph = formatGraph(Data.patients_data.data)
     // 感染者数
     const patientsTable = formatTable(Data.patients.data)
     // 退院者グラフ
@@ -154,6 +137,7 @@ export default {
       Data.inspections_summary.data['県内'],
       Data.inspections_summary.data['その他']
     ]
+    const inspectionsBarGraph = formatGraph(Data.inspections.data)
     const inspectionsItems = [
     //  '市中感染・輸入例（疑い例・接触者調査）',
     //  'その他（チャーター便・クルーズ便等）'
@@ -161,7 +145,7 @@ export default {
     const inspectionsLabels = Data.inspections_summary.labels
     // 千葉県用データ
     const patientsAndNoSymptomsGraph = [
-      //Data.patients_and_no_symptoms_summary.data['患者']
+      //Data.patients_and_no_symptoms_summary.data['患者'],
       //Data.patients_and_no_symptoms_summary.data['無症状病原体保有者']
     ]
     const patientsAndNoSymptomsItems = ['陽性患者']
@@ -193,6 +177,7 @@ export default {
       currentPatientsGraph,
       // querentsGraph,
       inspectionsGraph,
+      inspectionsBarGraph,
       inspectionsItems,
       inspectionsLabels,
       patientsAndNoSymptomsGraph,
