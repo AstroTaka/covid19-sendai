@@ -327,7 +327,25 @@ const options: ThisTypedComponentOptionsWithRecordProps<
                 fontSize: 11,
                 fontColor: '#808080',
                 padding: 3,
-                fontStyle: 'bold'
+                fontStyle: 'bold',
+                callback: (label: string) => {
+                  const monthStringArry = [
+                    'Jan',
+                    'Feb',
+                    'Mar',
+                    'Apr',
+                    'May',
+                    'Jun',
+                    'Jul',
+                    'Aug',
+                    'Sep',
+                    'Oct',
+                    'Nov',
+                    'Dec'
+                  ]
+                  const month = monthStringArry.indexOf(label.split(' ')[0]) + 1
+                  return month + '月'
+                }
               },
               type: 'time',
               time: {
@@ -467,8 +485,8 @@ const options: ThisTypedComponentOptionsWithRecordProps<
               ticks: {
                 suggestedMin: 0,
                 maxTicksLimit: 8,
-                fontColor: '#808080', // #808080
-                suggestedMax: scaledTicksYAxisMax
+                fontColor: '#808080' // #808080
+                //suggestedMax: scaledTicksYAxisMax
               }
             }
           ]
