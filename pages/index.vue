@@ -161,7 +161,7 @@ export default {
     const inspectionsLabels = Data.inspections_summary.labels
     // 千葉県用データ
     const patientsAndNoSymptomsGraph = [
-      Data.patients_and_no_symptoms_summary.data['患者']
+      //Data.patients_and_no_symptoms_summary.data['患者']
       //Data.patients_and_no_symptoms_summary.data['無症状病原体保有者']
     ]
     const patientsAndNoSymptomsItems = ['陽性患者']
