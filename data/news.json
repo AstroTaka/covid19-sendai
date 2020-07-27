@@ -1,6 +1,16 @@
 {
   "newsItems": [
     {
+      "date": "2020-07-27T14:00:00.000Z",
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/0727corona.html",
+      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内109～112例目）"
+    },
+    {
+      "date": "2020-07-27T12:00:00.000Z",
+      "link": "http://www.city.sendai.jp/sesakukoho/gaiyo/shichoshitsu/kaiken/oshirase.html",
+      "title": "市長定例記者会見を更新しました（令和2年第2回臨時会に提出する議案について、新型コロナウイルス感染症に対応した経済対策（第4弾）を実施します、「新型コロナウイルス感染症拡大防止のための県民への情報提供（呼びかけ）基準」の策定について）"
+    },
+    {
       "date": "2020-07-27T06:00:00.000Z",
       "link": "http://www.city.sendai.jp/kezai-chose/shise/koho/kisha/r2/r2_4_6sokuho.html",
       "title": "仙台市地域経済動向調査（令和2年4月～6月期）新型コロナウイルス感染症の影響に関する設問の速報結果を公表します"
@@ -302,13 +312,13 @@
     },
     {
       "date": "2020-04-19T15:00:00.000Z",
-      "link": "http://www.city.sendai.jp/dobutsu/faq/pet/coronaqa.html",
-      "title": "新型コロナウイルス感染症Q&A(動物を飼育する方向け）"
+      "link": "http://www.city.sendai.jp/kyoikusodan/koronanikannsurukokoronokea.html",
+      "title": "新型コロナウイルス感染症に係る児童生徒の心のケアについて"
     },
     {
       "date": "2020-04-19T15:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kyoikusodan/koronanikannsurukokoronokea.html",
-      "title": "新型コロナウイルス感染症に係る児童生徒の心のケアについて"
+      "link": "http://www.city.sendai.jp/dobutsu/faq/pet/coronaqa.html",
+      "title": "新型コロナウイルス感染症Q&A(動物を飼育する方向け）"
     },
     {
       "date": "2020-04-18T13:00:00.000Z",
