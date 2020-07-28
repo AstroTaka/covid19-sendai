@@ -43,14 +43,27 @@
         />
       </v-col>
       <v-col cols="12" md="6" class="DataCard">
-        <time-bar-chart
+        <time-stacked-bar-chart
           title="仙台市の患者数の推移"
           :title-id="'number-of-patients'"
-          :chart-id="'time-bar-chart-patients'"
+          :chart-id="'time-stacked-bar-chart-patients'"
           :chart-data="currentPatientsGraph"
-          :date="Data.patients.date"
+          :date="currentPatientsDate"
+          :items="currentPatientsTransitionItems"
+          :labels="currentPatientsLabels"
           :unit="'人'"
-          :url="''"
+        />
+      </v-col>
+      <v-col cols="12" md="6" class="DataCard">
+        <time-stacked-bar-chart
+          title="仙台市の退院・療養解除と死亡者数の推移"
+          :title-id="'number-of-discharge'"
+          :chart-id="'time-stacked-bar-chart-discharge'"
+          :chart-data="currentDischargeGraph"
+          :date="currentPatientsDate"
+          :items="currentDischargeTransitionItems"
+          :labels="currentPatientsLabels"
+          :unit="'人'"
         />
       </v-col>
       <v-col cols="12" md="6" class="DataCard">
@@ -127,7 +140,20 @@ export default {
     // // 相談件数
     const contactsGraph = formatGraph(Data.contacts.data)
 
-    const currentPatientsGraph = formatGraph(Data.current_patients.data)
+    //const currentPatientsGraph = formatGraph(Data.current_patients.data)
+    const currentPatientsGraph = [
+      Data.current_patients_summary.data['未入院'],
+      Data.current_patients_summary.data['入院中']
+    ]
+    const currentPatientsDate = Data.current_patients_summary.date
+    const currentPatientsTransitionItems = ['未入院', '入院中']
+    const currentPatientsLabels = Data.current_patients_summary.labels
+
+    const currentDischargeGraph = [
+      Data.current_patients_summary.data['死亡'],
+      Data.current_patients_summary.data['退院']
+    ]
+    const currentDischargeTransitionItems = ['死亡', '退院・療養解除']
 
     // // 帰国者・接触者電話相談センター相談件数
     // const querentsGraph = formatGraph(Data.querents.data)
@@ -175,6 +201,11 @@ export default {
       dischargesGraph,
       contactsGraph,
       currentPatientsGraph,
+      currentPatientsDate,
+      currentPatientsTransitionItems,
+      currentPatientsLabels,
+      currentDischargeGraph,
+      currentDischargeTransitionItems,
       // querentsGraph,
       inspectionsGraph,
       inspectionsBarGraph,
