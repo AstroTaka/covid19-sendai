@@ -1,6 +1,11 @@
 {
   "newsItems": [
     {
+      "date": "2020-08-05T14:00:00.000Z",
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/0805corona.html",
+      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内137例目）"
+    },
+    {
       "date": "2020-08-05T12:00:00.000Z",
       "link": "http://www.city.sendai.jp/sesakukoho/gaiyo/shichoshitsu/kaiken/oshirase.html",
       "title": "市長定例記者会見を更新しました（新型コロナウイルス感染症対応検証結果報告書を取りまとめました）"
