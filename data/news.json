@@ -1,6 +1,11 @@
 {
   "newsItems": [
     {
+      "date": "2020-08-27T14:00:00.000Z",
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/0827corona.html",
+      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内150例目）"
+    },
+    {
       "date": "2020-08-26T15:00:00.000Z",
       "link": "http://www.city.sendai.jp/kodomo-kyufu/sinseiji_rinjitokubetukyufu.html",
       "title": "仙台市新生児臨時特別給付金（新型コロナウイルス感染症関連）"
