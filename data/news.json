@@ -1,6 +1,11 @@
 {
   "newsItems": [
     {
+      "date": "2020-09-03T14:00:00.000Z",
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/0903corona.html",
+      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内170～179例目）"
+    },
+    {
       "date": "2020-09-03T11:00:00.000Z",
       "link": "http://www.city.sendai.jp/kikikanri/kinkyu/corona2020/shicho/index.html",
       "title": "新型コロナウイルス感染症に関する市長メッセージ　大雨災害に備えましょう（9月3日）"
