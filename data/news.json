@@ -1,6 +1,11 @@
 {
   "newsItems": [
     {
+      "date": "2020-10-09T11:00:00.000Z",
+      "link": "http://www.city.sendai.jp/kikikanri/kinkyu/corona2020/shicho/index.html",
+      "title": "新型コロナウイルス感染症に関する市長メッセージ　バッシングではなくエールを（10月9日）"
+    },
+    {
       "date": "2020-10-08T14:00:00.000Z",
       "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/1008corona.html",
       "title": "新型コロナウイルス感染症の患者の発生について（仙台市内298～303例目）"
@@ -682,11 +687,6 @@
     },
     {
       "date": "2020-04-19T15:00:00.000Z",
-      "link": "http://www.city.sendai.jp/service-shido/r2/kisha/corona.html",
-      "title": "宮城県内における新型コロナウイルス感染症の患者について"
-    },
-    {
-      "date": "2020-04-19T15:00:00.000Z",
       "link": "http://www.city.sendai.jp/dobutsu/faq/pet/coronaqa.html",
       "title": "新型コロナウイルス感染症Q&A(動物を飼育する方向け）"
     },
@@ -694,6 +694,11 @@
       "date": "2020-04-19T15:00:00.000Z",
       "link": "http://www.city.sendai.jp/kyoikusodan/koronanikannsurukokoronokea.html",
       "title": "新型コロナウイルス感染症に係る児童生徒の心のケアについて"
+    },
+    {
+      "date": "2020-04-19T15:00:00.000Z",
+      "link": "http://www.city.sendai.jp/service-shido/r2/kisha/corona.html",
+      "title": "宮城県内における新型コロナウイルス感染症の患者について"
     },
     {
       "date": "2020-04-18T13:00:00.000Z",
