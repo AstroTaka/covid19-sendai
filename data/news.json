@@ -1,6 +1,11 @@
 {
   "newsItems": [
     {
+      "date": "2020-10-23T04:00:00.000Z",
+      "link": "http://www.city.sendai.jp/kikikanri/kinkyu/corona2020/shicho/index.html",
+      "title": "新型コロナウイルス感染症に関する市長メッセージ特別編　仙台市立病院　奥田院長インタビュー（10月23日）"
+    },
+    {
       "date": "2020-10-21T14:00:00.000Z",
       "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/1021corona.html",
       "title": "新型コロナウイルス感染症の患者の発生について（仙台市内352～357例目）"
