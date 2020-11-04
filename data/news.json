@@ -1,6 +1,21 @@
 {
   "newsItems": [
     {
+      "date": "2020-11-04T14:00:00.000Z",
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/1104corona.html",
+      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内566~572例目）"
+    },
+    {
+      "date": "2020-11-04T14:00:00.000Z",
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/1104corona2.html",
+      "title": "新型コロナウイルス感染症患者の死亡について"
+    },
+    {
+      "date": "2020-11-04T09:00:00.000Z",
+      "link": "http://www.city.sendai.jp/kodomo-kyufu/sinseiji_rinjitokubetukyufu.html",
+      "title": "仙台市新生児臨時特別給付金（新型コロナウイルス感染症関連）"
+    },
+    {
       "date": "2020-11-03T14:00:00.000Z",
       "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/1103corona.html",
       "title": "新型コロナウイルス感染症の患者の発生について（仙台市内554~565例目）"
@@ -437,13 +452,13 @@
     },
     {
       "date": "2020-08-18T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/0818corona2.html",
-      "title": "新型コロナウイルス感染症患者の死亡について"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/0818corona.html",
+      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内143例目）"
     },
     {
       "date": "2020-08-18T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/0818corona.html",
-      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内143例目）"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/0818corona2.html",
+      "title": "新型コロナウイルス感染症患者の死亡について"
     },
     {
       "date": "2020-08-12T14:00:00.000Z",
@@ -852,13 +867,13 @@
     },
     {
       "date": "2020-04-18T13:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/0418corona.html",
-      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内63・64例目）"
+      "link": "http://www.city.sendai.jp/sesakukoho/gaiyo/shichoshitsu/kaiken/haishinpeze.html",
+      "title": "新型コロナウイルス感染症の患者の発生について【午後6時30分からLIVE配信】"
     },
     {
       "date": "2020-04-18T13:00:00.000Z",
-      "link": "http://www.city.sendai.jp/sesakukoho/gaiyo/shichoshitsu/kaiken/haishinpeze.html",
-      "title": "新型コロナウイルス感染症の患者の発生について【午後6時30分からLIVE配信】"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/0418corona.html",
+      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内63・64例目）"
     },
     {
       "date": "2020-04-17T15:00:00.000Z",
