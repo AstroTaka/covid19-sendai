@@ -545,7 +545,7 @@ const options: ThisTypedComponentOptionsWithRecordProps<
   mounted() {
     if (this.$el) {
       this.chartWidth =
-        ((this.$el!.clientWidth - 22 * 2 - 38) / 180) * this.labels.length + 38
+        ((this.$el!.clientWidth - 22 * 2 - 38) / 120) * this.labels.length + 38
       this.chartWidth = Math.max(
         this.$el!.clientWidth - 22 * 2,
         this.chartWidth
