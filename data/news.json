@@ -1,6 +1,11 @@
 {
   "newsItems": [
     {
+      "date": "2021-02-12T11:00:00.000Z",
+      "link": "http://www.city.sendai.jp/kikikanri/kinkyu/corona2020/shicho/index.html",
+      "title": "新型コロナウイルス感染症に関する市長メッセージ「宿泊療養施設での過ごし方」"
+    },
+    {
       "date": "2021-02-11T14:00:00.000Z",
       "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0211corona.html",
       "title": "新型コロナウイルス感染症の患者の発生について（仙台市内2188例目）"
@@ -312,13 +317,13 @@
     },
     {
       "date": "2020-12-23T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/1223corona2.html",
-      "title": "新型コロナウイルス感染症患者の死亡について"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/1223corona.html",
+      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内1169~1210例目）"
     },
     {
       "date": "2020-12-23T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/1223corona.html",
-      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内1169~1210例目）"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/1223corona2.html",
+      "title": "新型コロナウイルス感染症患者の死亡について"
     },
     {
       "date": "2020-12-22T14:00:00.000Z",
@@ -432,13 +437,13 @@
     },
     {
       "date": "2020-12-01T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/1201corona_teisei.html",
-      "title": "新型コロナウイルス感染症に係る公表内容の誤りについて"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/1201corona.html",
+      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内814~816例目）"
     },
     {
       "date": "2020-12-01T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/1201corona.html",
-      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内814~816例目）"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/1201corona_teisei.html",
+      "title": "新型コロナウイルス感染症に係る公表内容の誤りについて"
     },
     {
       "date": "2020-12-01T06:00:00.000Z",
@@ -467,13 +472,13 @@
     },
     {
       "date": "2020-11-27T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/1127corona2.html",
-      "title": "新型コロナウイルス感染症患者の死亡について"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/1127corona.html",
+      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内784~793例目）"
     },
     {
       "date": "2020-11-27T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/1127corona.html",
-      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内784~793例目）"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/1127corona2.html",
+      "title": "新型コロナウイルス感染症患者の死亡について"
     },
     {
       "date": "2020-11-26T15:00:00.000Z",
@@ -1067,13 +1072,13 @@
     },
     {
       "date": "2020-08-18T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/0818corona2.html",
-      "title": "新型コロナウイルス感染症患者の死亡について"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/0818corona.html",
+      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内143例目）"
     },
     {
       "date": "2020-08-18T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/0818corona.html",
-      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内143例目）"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/0818corona2.html",
+      "title": "新型コロナウイルス感染症患者の死亡について"
     },
     {
       "date": "2020-08-12T14:00:00.000Z",
@@ -1467,11 +1472,6 @@
     },
     {
       "date": "2020-04-19T15:00:00.000Z",
-      "link": "http://www.city.sendai.jp/dobutsu/faq/pet/coronaqa.html",
-      "title": "新型コロナウイルス感染症Q&A(動物を飼育する方向け）"
-    },
-    {
-      "date": "2020-04-19T15:00:00.000Z",
       "link": "http://www.city.sendai.jp/kyoikusodan/koronanikannsurukokoronokea.html",
       "title": "新型コロナウイルス感染症に係る児童生徒の心のケアについて"
     },
@@ -1479,6 +1479,11 @@
       "date": "2020-04-19T15:00:00.000Z",
       "link": "http://www.city.sendai.jp/service-shido/r2/kisha/corona.html",
       "title": "宮城県内における新型コロナウイルス感染症の患者について"
+    },
+    {
+      "date": "2020-04-19T15:00:00.000Z",
+      "link": "http://www.city.sendai.jp/dobutsu/faq/pet/coronaqa.html",
+      "title": "新型コロナウイルス感染症Q&A(動物を飼育する方向け）"
     },
     {
       "date": "2020-04-18T13:00:00.000Z",
