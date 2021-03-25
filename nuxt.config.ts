@@ -13,6 +13,10 @@ const config: Configuration = {
     },
     titleTemplate: '%s | 仙台市 新型コロナウイルス感染症対策サイト',
     meta: [
+      {
+        name: 'google-site-verification',
+        content: 'Xd_24d_3-BXlHx_sUGTUOiGp3kwVsev9D4fKsl_CNZc'
+      },
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
