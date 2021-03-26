@@ -15,7 +15,7 @@ const config: Configuration = {
     meta: [
       {
         name: 'google-site-verification',
-        content: 'Xd_24d_3-BXlHx_sUGTUOiGp3kwVsev9D4fKsl_CNZc'
+        content: 'Cm9gZSfx-2GLnoTBfjmdG59btjAVj4k4po94djpZw-c'
       },
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
