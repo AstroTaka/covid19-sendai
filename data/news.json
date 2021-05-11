@@ -1,19 +1,24 @@
 {
   "newsItems": [
     {
+      "date": "2021-05-11T12:00:00.000Z",
+      "link": "http://www.city.sendai.jp/covidvaccine/kobetu.html",
+      "title": "新型コロナウイルスワクチンの高齢者に対する個別接種を実施します"
+    },
+    {
       "date": "2021-05-10T14:00:00.000Z",
       "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0510corona.html",
       "title": "新型コロナウイルス感染症の患者の発生について（仙台市内5251~5258例目）"
     },
     {
       "date": "2021-05-09T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0509corona.html",
-      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内5229~5250例目）"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0509corona2.html",
+      "title": "新型コロナウイルス感染症患者の死亡について"
     },
     {
       "date": "2021-05-09T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0509corona2.html",
-      "title": "新型コロナウイルス感染症患者の死亡について"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0509corona.html",
+      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内5229~5250例目）"
     },
     {
       "date": "2021-05-08T14:00:00.000Z",
@@ -47,23 +52,23 @@
     },
     {
       "date": "2021-05-05T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0505corona2.html",
-      "title": "新型コロナウイルス感染症（変異株）の患者等の確認について"
-    },
-    {
-      "date": "2021-05-05T14:00:00.000Z",
       "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0505corona.html",
       "title": "新型コロナウイルス感染症の患者の発生について（仙台市内5160~5172例目）"
     },
     {
-      "date": "2021-05-04T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0504corona.html",
-      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内5146~5159例目）"
+      "date": "2021-05-05T14:00:00.000Z",
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0505corona2.html",
+      "title": "新型コロナウイルス感染症（変異株）の患者等の確認について"
     },
     {
       "date": "2021-05-04T14:00:00.000Z",
       "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0504corona2.html",
       "title": "新型コロナウイルス感染症（変異株）の患者等の確認について"
+    },
+    {
+      "date": "2021-05-04T14:00:00.000Z",
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0504corona.html",
+      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内5146~5159例目）"
     },
     {
       "date": "2021-05-03T14:00:00.000Z",
@@ -77,18 +82,13 @@
     },
     {
       "date": "2021-05-02T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0502corona2.html",
-      "title": "新型コロナウイルス感染症（変異株）の患者等の確認について"
-    },
-    {
-      "date": "2021-05-02T14:00:00.000Z",
       "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0502corona.html",
       "title": "新型コロナウイルス感染症の患者の発生について（仙台市内5113～5131例目）"
     },
     {
-      "date": "2021-05-01T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0501corona4.html",
-      "title": "死亡が確認された方からの新型コロナウイルスの検出について（仙台市内5112例目）"
+      "date": "2021-05-02T14:00:00.000Z",
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0502corona2.html",
+      "title": "新型コロナウイルス感染症（変異株）の患者等の確認について"
     },
     {
       "date": "2021-05-01T14:00:00.000Z",
@@ -97,13 +97,18 @@
     },
     {
       "date": "2021-05-01T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0501corona3.html",
-      "title": "新型コロナウイルス感染症患者の死亡について"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0501corona.html",
+      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内5102～5111例目）"
     },
     {
       "date": "2021-05-01T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0501corona.html",
-      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内5102～5111例目）"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0501corona4.html",
+      "title": "死亡が確認された方からの新型コロナウイルスの検出について（仙台市内5112例目）"
+    },
+    {
+      "date": "2021-05-01T14:00:00.000Z",
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0501corona3.html",
+      "title": "新型コロナウイルス感染症患者の死亡について"
     },
     {
       "date": "2021-04-30T14:00:00.000Z",
@@ -122,13 +127,13 @@
     },
     {
       "date": "2021-04-29T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0429corona2.html",
-      "title": "新型コロナウイルス感染症（変異株）の患者等の確認について"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0429corona.html",
+      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内5076～5088例目）"
     },
     {
       "date": "2021-04-29T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0429corona.html",
-      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内5076～5088例目）"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0429corona2.html",
+      "title": "新型コロナウイルス感染症（変異株）の患者等の確認について"
     },
     {
       "date": "2021-04-28T14:00:00.000Z",
@@ -162,13 +167,18 @@
     },
     {
       "date": "2021-04-26T14:00:00.000Z",
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0426corona.html",
+      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内5032～5037例目）"
+    },
+    {
+      "date": "2021-04-26T14:00:00.000Z",
       "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0426corona2.html",
       "title": "新型コロナウイルス感染症（変異株）の患者等の確認について"
     },
     {
-      "date": "2021-04-26T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0426corona.html",
-      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内5032～5037例目）"
+      "date": "2021-04-25T14:00:00.000Z",
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0425corona2.html",
+      "title": "新型コロナウイルス感染症患者の死亡について"
     },
     {
       "date": "2021-04-25T14:00:00.000Z",
@@ -179,11 +189,6 @@
       "date": "2021-04-25T14:00:00.000Z",
       "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0425corona.html",
       "title": "新型コロナウイルス感染症の患者の発生について（仙台市内5023～5031例目）"
-    },
-    {
-      "date": "2021-04-25T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0425corona2.html",
-      "title": "新型コロナウイルス感染症患者の死亡について"
     },
     {
       "date": "2021-04-24T14:00:00.000Z",
@@ -207,13 +212,13 @@
     },
     {
       "date": "2021-04-22T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0422corona.html",
-      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内4967～4987例目）"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0422corona2.html",
+      "title": "新型コロナウイルス感染症（変異株）の患者等の確認について"
     },
     {
       "date": "2021-04-22T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0422corona2.html",
-      "title": "新型コロナウイルス感染症（変異株）の患者等の確認について"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0422corona.html",
+      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内4967～4987例目）"
     },
     {
       "date": "2021-04-21T14:00:00.000Z",
@@ -222,13 +227,13 @@
     },
     {
       "date": "2021-04-20T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0420corona.html",
-      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内4902～4926例目）"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0420corona3.html",
+      "title": "新型コロナウイルス感染症（変異株）の患者等の確認について"
     },
     {
       "date": "2021-04-20T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0420corona3.html",
-      "title": "新型コロナウイルス感染症（変異株）の患者等の確認について"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0420corona.html",
+      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内4902～4926例目）"
     },
     {
       "date": "2021-04-20T14:00:00.000Z",
@@ -247,8 +252,8 @@
     },
     {
       "date": "2021-04-18T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0418corona2.html",
-      "title": "新型コロナウイルス感染症患者の死亡について"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0418corona3.html",
+      "title": "新型コロナウイルス感染症（変異株）の患者等の確認について"
     },
     {
       "date": "2021-04-18T14:00:00.000Z",
@@ -257,8 +262,8 @@
     },
     {
       "date": "2021-04-18T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0418corona3.html",
-      "title": "新型コロナウイルス感染症（変異株）の患者等の確認について"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0418corona2.html",
+      "title": "新型コロナウイルス感染症患者の死亡について"
     },
     {
       "date": "2021-04-17T14:00:00.000Z",
@@ -292,6 +297,11 @@
     },
     {
       "date": "2021-04-14T14:00:00.000Z",
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0414corona.html",
+      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内4717～4767例目）"
+    },
+    {
+      "date": "2021-04-14T14:00:00.000Z",
       "link": "http://www.city.sendai.jp/sesakukoho/kotsu/kisha/0414corona.html",
       "title": "職員の新型コロナウイルス感染症の感染について"
     },
@@ -299,11 +309,6 @@
       "date": "2021-04-14T14:00:00.000Z",
       "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0414corona2.html",
       "title": "新型コロナウイルス感染症の変異株について"
-    },
-    {
-      "date": "2021-04-14T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0414corona.html",
-      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内4717～4767例目）"
     },
     {
       "date": "2021-04-13T14:00:00.000Z",
@@ -352,6 +357,11 @@
     },
     {
       "date": "2021-04-08T14:00:00.000Z",
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0408corona2.html",
+      "title": "新型コロナウイルス感染症患者の死亡について"
+    },
+    {
+      "date": "2021-04-08T14:00:00.000Z",
       "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0408corona3.html",
       "title": "新型コロナウイルス感染症に係る公表内容の誤りについて"
     },
@@ -361,9 +371,9 @@
       "title": "新型コロナウイルス感染症の患者の発生について（仙台市内4411～4463例目）"
     },
     {
-      "date": "2021-04-08T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0408corona2.html",
-      "title": "新型コロナウイルス感染症患者の死亡について"
+      "date": "2021-04-07T14:00:00.000Z",
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0407corona2.html",
+      "title": "死亡が確認された方からの新型コロナウイルスの検出について（仙台市内4410例目）"
     },
     {
       "date": "2021-04-07T14:00:00.000Z",
@@ -374,11 +384,6 @@
       "date": "2021-04-07T14:00:00.000Z",
       "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0407corona.html",
       "title": "新型コロナウイルス感染症の患者の発生について（仙台市内4348～4409例目）"
-    },
-    {
-      "date": "2021-04-07T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0407corona2.html",
-      "title": "死亡が確認された方からの新型コロナウイルスの検出について（仙台市内4410例目）"
     },
     {
       "date": "2021-04-07T13:00:00.000Z",
@@ -412,13 +417,13 @@
     },
     {
       "date": "2021-04-04T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0404corona.html",
-      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内4198～4242例目）"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0404corona2.html",
+      "title": "新型コロナウイルス感染症患者の死亡について"
     },
     {
       "date": "2021-04-04T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0404corona2.html",
-      "title": "新型コロナウイルス感染症患者の死亡について"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0404corona.html",
+      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内4198～4242例目）"
     },
     {
       "date": "2021-04-03T14:00:00.000Z",
@@ -437,13 +442,13 @@
     },
     {
       "date": "2021-04-01T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0401corona.html",
-      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内3971～4038例目）"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0401corona2.html",
+      "title": "新型コロナウイルス感染症の変異株について"
     },
     {
       "date": "2021-04-01T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0401corona2.html",
-      "title": "新型コロナウイルス感染症の変異株について"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0401corona.html",
+      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内3971～4038例目）"
     },
     {
       "date": "2021-03-31T14:00:00.000Z",
@@ -482,13 +487,13 @@
     },
     {
       "date": "2021-03-28T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0328corona.html",
-      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内3605～3712例目）"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0328corona2.html",
+      "title": "新型コロナウイルス感染症患者の死亡について"
     },
     {
       "date": "2021-03-28T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0328corona2.html",
-      "title": "新型コロナウイルス感染症患者の死亡について"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0328corona.html",
+      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内3605～3712例目）"
     },
     {
       "date": "2021-03-27T14:00:00.000Z",
@@ -502,13 +507,13 @@
     },
     {
       "date": "2021-03-26T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0326corona2.html",
-      "title": "死亡が確認された方からの新型コロナウイルスの検出について（仙台市内3528例目）"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0326corona.html",
+      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内3439～3527例目）"
     },
     {
       "date": "2021-03-26T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0326corona.html",
-      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内3439～3527例目）"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0326corona2.html",
+      "title": "死亡が確認された方からの新型コロナウイルスの検出について（仙台市内3528例目）"
     },
     {
       "date": "2021-03-26T12:00:00.000Z",
@@ -602,13 +607,13 @@
     },
     {
       "date": "2021-03-15T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0315corona.html",
-      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内2615～2632例目）"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0315corona2.html",
+      "title": "新型コロナウイルス感染症患者の死亡について"
     },
     {
       "date": "2021-03-15T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0315corona2.html",
-      "title": "新型コロナウイルス感染症患者の死亡について"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0315corona.html",
+      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内2615～2632例目）"
     },
     {
       "date": "2021-03-14T14:00:00.000Z",
@@ -912,13 +917,13 @@
     },
     {
       "date": "2021-01-18T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0118corona2.html",
-      "title": "新型コロナウイルス感染症患者の死亡について"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0118corona.html",
+      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内1925~1941例目）"
     },
     {
       "date": "2021-01-18T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0118corona.html",
-      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内1925~1941例目）"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0118corona2.html",
+      "title": "新型コロナウイルス感染症患者の死亡について"
     },
     {
       "date": "2021-01-17T14:00:00.000Z",
@@ -977,13 +982,13 @@
     },
     {
       "date": "2021-01-08T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0108corona2.html",
-      "title": "新型コロナウイルス感染症患者の死亡について"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0108corona.html",
+      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内1623~1654例目）"
     },
     {
       "date": "2021-01-08T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0108corona.html",
-      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内1623~1654例目）"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r3/0108corona2.html",
+      "title": "新型コロナウイルス感染症患者の死亡について"
     },
     {
       "date": "2021-01-07T14:00:00.000Z",
@@ -1237,13 +1242,13 @@
     },
     {
       "date": "2020-11-27T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/1127corona.html",
-      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内784~793例目）"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/1127corona2.html",
+      "title": "新型コロナウイルス感染症患者の死亡について"
     },
     {
       "date": "2020-11-27T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/1127corona2.html",
-      "title": "新型コロナウイルス感染症患者の死亡について"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/1127corona.html",
+      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内784~793例目）"
     },
     {
       "date": "2020-11-26T15:00:00.000Z",
@@ -1342,13 +1347,13 @@
     },
     {
       "date": "2020-11-12T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/1112corona.html",
-      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内656~666例目）"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/1112corona3.html",
+      "title": "死亡が確認された方からの新型コロナウイルスの検出について（仙台市内667例目）"
     },
     {
       "date": "2020-11-12T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/1112corona3.html",
-      "title": "死亡が確認された方からの新型コロナウイルスの検出について（仙台市内667例目）"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/1112corona.html",
+      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内656~666例目）"
     },
     {
       "date": "2020-11-11T14:00:00.000Z",
@@ -1387,13 +1392,13 @@
     },
     {
       "date": "2020-11-04T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/1104corona2.html",
-      "title": "新型コロナウイルス感染症患者の死亡について"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/1104corona.html",
+      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内566~572例目）"
     },
     {
       "date": "2020-11-04T14:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/1104corona.html",
-      "title": "新型コロナウイルス感染症の患者の発生について（仙台市内566~572例目）"
+      "link": "http://www.city.sendai.jp/kenkoanzen-kansen/shise/koho/kisha/r2/1104corona2.html",
+      "title": "新型コロナウイルス感染症患者の死亡について"
     },
     {
       "date": "2020-11-04T09:00:00.000Z",
@@ -2242,13 +2247,13 @@
     },
     {
       "date": "2020-04-19T15:00:00.000Z",
-      "link": "http://www.city.sendai.jp/kyoikusodan/koronanikannsurukokoronokea.html",
-      "title": "新型コロナウイルス感染症に係る児童生徒の心のケアについて"
+      "link": "http://www.city.sendai.jp/service-shido/r2/kisha/corona.html",
+      "title": "宮城県内における新型コロナウイルス感染症の患者について"
     },
     {
       "date": "2020-04-19T15:00:00.000Z",
-      "link": "http://www.city.sendai.jp/service-shido/r2/kisha/corona.html",
-      "title": "宮城県内における新型コロナウイルス感染症の患者について"
+      "link": "http://www.city.sendai.jp/kyoikusodan/koronanikannsurukokoronokea.html",
+      "title": "新型コロナウイルス感染症に係る児童生徒の心のケアについて"
     },
     {
       "date": "2020-04-18T13:00:00.000Z",
