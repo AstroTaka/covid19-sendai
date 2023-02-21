@@ -42,7 +42,7 @@
     "dayjs": "^1.8.21",
     "express": "^4.16.4",
     "json-beautify": "^1.1.1",
-    "nuxt": "^2.11.0",
+    "nuxt": "^2.16.1",
     "nuxt-i18n": "^6.6.0",
     "rss-parser": "^3.7.5",
     "vue-chartjs": "^3.5.0",
